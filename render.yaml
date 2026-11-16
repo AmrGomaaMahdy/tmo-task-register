@@ -48,9 +48,9 @@ services:
         value: "False"
       # The API's own host is added automatically (RENDER_EXTERNAL_HOSTNAME); this adds the front end's.
       - key: DJANGO_ALLOWED_HOSTS
-        value: task-register.onrender.com
+        value: task-register-elty.onrender.com
       - key: DJANGO_CSRF_TRUSTED_ORIGINS
-        value: https://task-register.onrender.com
+        value: https://task-register-elty.onrender.com
       - key: DJANGO_SECURE_COOKIES
         value: "True"
       - key: DJANGO_LOG_LEVEL
