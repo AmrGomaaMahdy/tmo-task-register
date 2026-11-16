@@ -1,0 +1,928 @@
+{
+ "source": "Prototype v1.9 sample data (Simplified Task Register)",
+ "md": {
+  "workgroups": [
+   {
+    "code": "ICT",
+    "name": "Information & Communication Technology"
+   },
+   {
+    "code": "PM",
+    "name": "Project Management"
+   },
+   {
+    "code": "CM",
+    "name": "Construction Management"
+   },
+   {
+    "code": "BC",
+    "name": "Bidding & Commercial"
+   },
+   {
+    "code": "ENG",
+    "name": "Engineering"
+   },
+   {
+    "code": "EQP",
+    "name": "Equipment"
+   },
+   {
+    "code": "PRD",
+    "name": "Production"
+   },
+   {
+    "code": "SCM",
+    "name": "Supply Chain"
+   },
+   {
+    "code": "FIN",
+    "name": "Finance"
+   },
+   {
+    "code": "HR",
+    "name": "Human Resources"
+   },
+   {
+    "code": "SS",
+    "name": "Support Services"
+   },
+   {
+    "code": "BD",
+    "name": "Business Development"
+   },
+   {
+    "code": "OTH",
+    "name": "Others (incl. EPMO)"
+   }
+  ],
+  "workstreams": [
+   "Business Plan Execution",
+   "Blueprint Detailing (L4/L5)",
+   "Digitization & Automation",
+   "Implementation",
+   "Offshoring",
+   "Sub-Objectives Execution"
+  ],
+  "ownerRoles": [
+   "Direct",
+   "Enable",
+   "Support"
+  ],
+  "partnerRoles": [
+   "Enable",
+   "Support"
+  ],
+  "members": [
+   {
+    "name": "Amr Gomaa",
+    "wg": "ICT"
+   },
+   {
+    "name": "Shadi Alghanim",
+    "wg": "ICT"
+   },
+   {
+    "name": "Essam Essmat",
+    "wg": "ICT"
+   },
+   {
+    "name": "Azeem Hussain",
+    "wg": "ICT"
+   },
+   {
+    "name": "Shakeel",
+    "wg": "ICT"
+   },
+   {
+    "name": "Omar Khalil",
+    "wg": "ICT"
+   },
+   {
+    "name": "Rania Adel",
+    "wg": "ICT"
+   },
+   {
+    "name": "Tariq Nabil",
+    "wg": "ICT"
+   },
+   {
+    "name": "Lina Samir",
+    "wg": "ICT"
+   },
+   {
+    "name": "Khaled Mansour",
+    "wg": "PM"
+   },
+   {
+    "name": "Yasser Hamdan",
+    "wg": "CM"
+   },
+   {
+    "name": "Mona Farouk",
+    "wg": "BC"
+   },
+   {
+    "name": "Hesham Saleh",
+    "wg": "ENG"
+   },
+   {
+    "name": "Fahad Alotaibi",
+    "wg": "EQP"
+   },
+   {
+    "name": "Majed Alharbi",
+    "wg": "PRD"
+   },
+   {
+    "name": "Ahmed Alsayed",
+    "wg": "SCM"
+   },
+   {
+    "name": "Samir Fouad",
+    "wg": "FIN"
+   },
+   {
+    "name": "Mohammed Alshehri",
+    "wg": "FIN"
+   },
+   {
+    "name": "Huda Karim",
+    "wg": "HR"
+   },
+   {
+    "name": "Nadia Yousef",
+    "wg": "HR"
+   },
+   {
+    "name": "Waleed Nasser",
+    "wg": "SS"
+   },
+   {
+    "name": "Reem Alqahtani",
+    "wg": "BD"
+   },
+   {
+    "name": "Sara Alzahrani",
+    "wg": "OTH"
+   }
+  ],
+  "needed": [
+   "Before start",
+   "During execution"
+  ],
+  "readiness": [
+   "Ready to include",
+   "Needs completion"
+  ],
+  "subs": [
+   "YM-008 – YM-8-System Integration and Data Flows",
+   "WB-051 – WB-9-Key Reports, Meeting Linkage, Decision Usage, Request Lifecycle",
+   "WB-080 – WB-12-System Change / Procedure, Structure Role Changes, Phased Deliverables",
+   "WB-081 – WB-13-AI Invention Points, AI Agent Types, AI Inputs and Outputs",
+   "WB-082 – WB-14-Integration Points and Data Flow",
+   "WB-083 – WB-15-Digitalization of Related Sub-objectives"
+  ],
+  "def": {
+   "workstreams": {
+    "Business Plan Execution": "Deliver reliable business systems, efficient licensing, service operations and capability access consistent with approved business requirements.",
+    "Blueprint Detailing (L4/L5)": "Detail functions, operating models, data and procedure governance interfaces and service responsibilities across internal and partner teams.",
+    "Digitization & Automation": "Integrate Oracle and business platforms; stabilize and progressively develop Tekwin, including approved AI capabilities.",
+    "Implementation": "Implement approved operating arrangements, security controls, service ownership, user access and change management.",
+    "Offshoring": "Use Jordan and partner capabilities to scale specialist development and selected operations while retaining core internal competence.",
+    "Sub-Objectives Execution": "Support the relevant sub-objectives, including measurable cost and service outcomes."
+   },
+   "ownerRoles": {
+    "Direct": "Owns operational outputs that directly affect the objective.",
+    "Enable": "Provides systems, resources, standards or governance that enable the objective. Complete what the task delivers to the other groups (its contributions).",
+    "Support": "Contributes, while the principal result sits with another group. Complete what the task delivers to the other groups (its contributions)."
+   },
+   "partnerRoles": {
+    "Enable": "The partner provides systems, resources, standards or governance our task needs.",
+    "Support": "The partner contributes to our task, while the result stays with us."
+   },
+   "needed": {
+    "Before start": "The output is needed before the receiving task can start.",
+    "During execution": "The output is needed while the receiving task is running."
+   },
+   "readiness": {
+    "Ready to include": "The task data is mature enough to include in the Master Plan (not necessarily to start now).",
+    "Needs completion": "Something must be completed or resolved first."
+   }
+  }
+ },
+ "dirs": [
+  {
+   "id": "ICT-D01",
+   "wg": "ICT",
+   "t": "Build a sustainable and cost-efficient digitalization operating model",
+   "m": "Reduce cost and access specialist capabilities through partners (Alia, Black Smith, SaSa) and capable offshore teams in Jordan, while internal teams own service operations, architecture, critical product knowledge and vendor oversight. Strategic products such as Tekwin need continuing development, maintenance, security and lifecycle ownership."
+  },
+  {
+   "id": "ICT-D02",
+   "wg": "ICT",
+   "t": "Integrate Oracle with company applications and optimize license utilization",
+   "m": "Capture Oracle's benefits while managing cost and risk; integrate Tekwin and other applications; allocate access and licences by actual responsibility, approved architecture and contract terms. Indirect access or alternative viewing interfaces do not automatically remove Oracle licence obligations."
+  },
+  {
+   "id": "ICT-D03",
+   "wg": "ICT",
+   "t": "Develop Tekwin in phases and progressively expand its capabilities",
+   "m": "Stabilize Tekwin first, then add suitable AI agents, and evaluate a service-by-service expansion into Unifier functions only where Tekwin offers better integrated business value and the transition is justified and approved."
+  },
+  {
+   "id": "ICT-D04",
+   "wg": "ICT",
+   "t": "Activate the ICT Blueprint and integrate it with departmental Blueprints",
+   "m": "Activate the Blueprint's roles, procedures and operating model, align them with departmental Blueprints, and turn approved procedures into integrated digital services with clear responsibilities across internal, offshore and partner teams."
+  },
+  {
+   "id": "ICT-D05",
+   "wg": "ICT",
+   "t": "Integrate with EPMO on information, data and procedure governance",
+   "m": "EPMO is custodian of libraries, approved procedures and common standards; business owners own content; ICT owns architecture, access, integration, security and operations. Clear interfaces for changes, version control and quality checks."
+  },
+  {
+   "id": "ICT-D06",
+   "wg": "ICT",
+   "t": "Balance cybersecurity with operational efficiency and flexibility",
+   "m": "Cybersecurity requirements for multi-country operations that protect information and systems while keeping teams efficient, mobile and collaborative."
+  },
+  {
+   "id": "ICT-D07",
+   "wg": "ICT",
+   "t": "Define & Utilize AI for Digitalization initiatives",
+   "m": ""
+  },
+  {
+   "id": "HR-D01",
+   "wg": "HR",
+   "t": "Build a scalable multi-country workforce model (sample)",
+   "m": "Sample direction for the prototype: staffing rules, role catalogue and hiring for KSA and Jordan operations."
+  },
+  {
+   "id": "FIN-D01",
+   "wg": "FIN",
+   "t": "Activate the Finance Blueprint and standard cost structures (sample)",
+   "m": "Sample direction for the prototype: standard cost structures and Finance Blueprint processes in daily use."
+  }
+ ],
+ "data": {
+  "tasks": [
+   {
+    "id": "ICT-T001",
+    "wg": "ICT",
+    "task": "Define the ICT target operating model for internal, partner and offshore teams",
+    "dir": "ICT-D01",
+    "ws": "Blueprint Detailing (L4/L5)",
+    "role": "Direct",
+    "p1": "HR",
+    "r1": "Support",
+    "start": "2026-09-13",
+    "finish": "2027-02-25",
+    "stage": "exec",
+    "progress": 42,
+    "health": "On track"
+   },
+   {
+    "id": "ICT-T003",
+    "wg": "ICT",
+    "task": "Integrate Oracle Fusion ERP with Tekwin for POs, receipts and cost postings",
+    "dir": "ICT-D02",
+    "ws": "Digitization & Automation",
+    "sub": "YM-008 – YM-8-System Integration and Data Flows",
+    "role": "Direct",
+    "p1": "FIN",
+    "r1": "Support",
+    "p2": "SCM",
+    "r2": "Support",
+    "start": "2026-10-04",
+    "finish": "2027-05-27",
+    "stage": "exec",
+    "progress": 28,
+    "health": "At risk",
+    "note": "Approved P2P procedures from SCM are three weeks late"
+   },
+   {
+    "id": "ICT-T004",
+    "wg": "ICT",
+    "task": "Review Oracle licence allocation against actual user responsibilities",
+    "dir": "ICT-D02",
+    "ws": "Business Plan Execution",
+    "role": "Direct",
+    "p1": "FIN",
+    "r1": "Support",
+    "start": "2026-09-06",
+    "finish": "2026-10-29",
+    "stage": "done",
+    "progress": 100,
+    "health": "On track"
+   },
+   {
+    "id": "ICT-T005",
+    "wg": "ICT",
+    "task": "Serve view-only monitoring needs through Tekwin within Oracle licence terms",
+    "dir": "ICT-D02",
+    "ws": "Digitization & Automation",
+    "role": "Direct",
+    "start": "2026-12-13",
+    "stage": "need"
+   },
+   {
+    "id": "ICT-T006",
+    "wg": "ICT",
+    "task": "Stabilize the Tekwin construction platform (phase 1)",
+    "dir": "ICT-D03",
+    "ws": "Digitization & Automation",
+    "role": "Direct",
+    "p1": "CM",
+    "r1": "Enable",
+    "start": "2026-09-20",
+    "finish": "2027-03-25",
+    "stage": "exec",
+    "progress": 58,
+    "health": "On track"
+   },
+   {
+    "id": "ICT-T007",
+    "wg": "ICT",
+    "task": "Pilot AI agents in Tekwin for daily site reports",
+    "dir": "ICT-D07",
+    "ws": "Digitization & Automation",
+    "sub": "WB-081 – WB-13-AI Invention Points, AI Agent Types, AI Inputs and Outputs",
+    "role": "Direct",
+    "p1": "CM",
+    "r1": "Support",
+    "start": "2027-04-04",
+    "finish": "2027-07-29",
+    "stage": "plan"
+   },
+   {
+    "id": "ICT-T010",
+    "wg": "ICT",
+    "task": "Digitize approved departmental procedures as Tekwin workflows",
+    "dir": "ICT-D04",
+    "ws": "Digitization & Automation",
+    "sub": "WB-080 – WB-12-System Change / Procedure, Structure Role Changes, Phased Deliverables",
+    "role": "Enable",
+    "p1": "OTH",
+    "r1": "Enable",
+    "start": "2027-03-07",
+    "finish": "2027-09-23",
+    "stage": "ready"
+   },
+   {
+    "id": "ICT-T014",
+    "wg": "ICT",
+    "task": "Define the multi-country cybersecurity access model (KSA and Jordan)",
+    "dir": "ICT-D06",
+    "ws": "Blueprint Detailing (L4/L5)",
+    "role": "Direct",
+    "p1": "HR",
+    "r1": "Support",
+    "p2": "SS",
+    "r2": "Support",
+    "start": "2026-10-11",
+    "finish": "2027-03-18",
+    "stage": "exec",
+    "progress": 18,
+    "health": "Delayed",
+    "note": "HR role catalogue not received yet; draft review moved two weeks"
+   },
+   {
+    "id": "ICT-T016",
+    "wg": "ICT",
+    "task": "Run quarterly access reviews for Oracle and Tekwin",
+    "dir": "ICT-D06",
+    "start": "2027-01-03",
+    "stage": "draft"
+   },
+   {
+    "id": "ICT-T030",
+    "wg": "ICT",
+    "task": "Develop and approve the department's offshore strategy",
+    "dir": "ICT-D01",
+    "ws": "Offshoring",
+    "sub": "YM-008 – YM-8-System Integration and Data Flows",
+    "role": "Direct",
+    "p1": "HR",
+    "r1": "Support",
+    "p2": "ENG",
+    "r2": "Enable",
+    "start": "2026-12-01",
+    "finish": "2027-01-31",
+    "stage": "ready"
+   },
+   {
+    "id": "ICT-T031",
+    "wg": "ICT",
+    "task": "Implement the offshore pilot for planning and reporting work",
+    "dir": "ICT-D01",
+    "ws": "Offshoring",
+    "role": "Direct",
+    "p1": "HR",
+    "r1": "Support",
+    "start": "2027-02-07",
+    "finish": "2027-06-24",
+    "stage": "ready"
+   },
+   {
+    "id": "ICT-T040",
+    "wg": "ICT",
+    "task": "Develop the detailed plan for the Jordan offshore development centre",
+    "dir": "ICT-D01",
+    "ws": "Offshoring",
+    "role": "Direct",
+    "start": "2026-11-08",
+    "finish": "2026-11-26",
+    "stage": "exec",
+    "progress": 60,
+    "health": "On track"
+   },
+   {
+    "id": "ICT-T041",
+    "wg": "ICT",
+    "task": "Set up the Jordan offshore development centre",
+    "dir": "ICT-D01",
+    "ws": "Offshoring",
+    "role": "Direct",
+    "p1": "HR",
+    "r1": "Support",
+    "p2": "SS",
+    "r2": "Support",
+    "p3": "FIN",
+    "r3": "Support",
+    "start": "2026-12-06",
+    "finish": "2027-09-30",
+    "stage": "plan"
+   },
+   {
+    "id": "ICT-T045",
+    "wg": "ICT",
+    "task": "Provide project cost data for the Finance Blueprint",
+    "dir": "ICT-D05",
+    "ws": "Blueprint Detailing (L4/L5)",
+    "role": "Support",
+    "start": "2026-11-22",
+    "finish": "2026-12-24",
+    "stage": "plan"
+   },
+   {
+    "id": "ICT-T046",
+    "wg": "ICT",
+    "task": "Digitalize the related sub-objectives on the master platform",
+    "dir": "ICT-D04",
+    "ws": "Sub-Objectives Execution",
+    "sub": "WB-083 – WB-15-Digitalization of Related Sub-objectives",
+    "role": "Enable",
+    "start": "2027-02-14",
+    "finish": "2027-08-26",
+    "stage": "need"
+   },
+   {
+    "id": "HR-T012",
+    "wg": "HR",
+    "task": "Approve offshore staffing rules",
+    "dir": "HR-D01",
+    "ws": "Offshoring",
+    "role": "Enable",
+    "p1": "ICT",
+    "r1": "Support",
+    "start": "2026-10-04",
+    "finish": "2026-11-26",
+    "stage": "exec",
+    "progress": 65,
+    "health": "On track"
+   },
+   {
+    "id": "HR-T015",
+    "wg": "HR",
+    "task": "Approve hiring positions for the Jordan development centre",
+    "dir": "HR-D01",
+    "ws": "Offshoring",
+    "role": "Enable",
+    "p1": "ICT",
+    "r1": "Support",
+    "start": "2027-01-03",
+    "finish": "2027-02-25",
+    "stage": "ready"
+   },
+   {
+    "id": "HR-T020",
+    "wg": "HR",
+    "task": "Publish the company role catalogue",
+    "dir": "HR-D01",
+    "ws": "Blueprint Detailing (L4/L5)",
+    "role": "Support",
+    "p1": "ICT",
+    "r1": "Support",
+    "start": "2026-09-13",
+    "finish": "2027-01-28",
+    "stage": "exec",
+    "progress": 40,
+    "health": "Delayed",
+    "note": "Two job families still under review; publication moved to January"
+   },
+   {
+    "id": "FIN-T004",
+    "wg": "FIN",
+    "task": "Activate the Finance Blueprint",
+    "dir": "FIN-D01",
+    "ws": "Implementation",
+    "role": "Direct",
+    "p1": "ICT",
+    "r1": "Support",
+    "start": "2027-01-03",
+    "finish": "2027-06-24",
+    "stage": "plan"
+   },
+   {
+    "id": "FIN-T007",
+    "wg": "FIN",
+    "task": "Map cost accounts for Tekwin cost postings",
+    "dir": "FIN-D01",
+    "ws": "Digitization & Automation",
+    "role": "Enable",
+    "start": "2026-11-22",
+    "finish": "2027-01-14",
+    "stage": "plan"
+   }
+  ],
+  "acts": [
+   {
+    "task": "ICT-T030",
+    "name": "Map current planning and reporting work",
+    "owner": "Essam Essmat",
+    "start": "2026-12-01",
+    "finish": "2026-12-14",
+    "p1": "",
+    "p2": ""
+   },
+   {
+    "task": "ICT-T030",
+    "name": "Draft the strategy",
+    "owner": "Essam Essmat",
+    "start": "2026-12-15",
+    "finish": "2026-12-21",
+    "p1": "ICT-T030-A01",
+    "p2": ""
+   },
+   {
+    "task": "ICT-T030",
+    "name": "Select pilot activities with HR",
+    "owner": "Rania Adel",
+    "start": "2026-12-22",
+    "finish": "2027-01-07",
+    "p1": "ICT-T030-A01",
+    "p2": ""
+   },
+   {
+    "task": "ICT-T030",
+    "name": "Present the strategy to the Committee",
+    "owner": "Essam Essmat",
+    "start": "2027-01-10",
+    "finish": "2027-01-28",
+    "p1": "ICT-T030-A02",
+    "p2": "ICT-T030-A03"
+   },
+   {
+    "task": "ICT-T003",
+    "name": "Integration design and API contracts",
+    "owner": "Omar Khalil",
+    "start": "2026-10-04",
+    "finish": "2026-11-12",
+    "p1": "",
+    "p2": ""
+   },
+   {
+    "task": "ICT-T003",
+    "name": "Build PO and receipt interfaces",
+    "owner": "Omar Khalil",
+    "start": "2026-11-15",
+    "finish": "2027-01-14",
+    "p1": "ICT-T003-A01",
+    "p2": ""
+   },
+   {
+    "task": "ICT-T003",
+    "name": "Build cost-posting interface",
+    "owner": "Omar Khalil",
+    "start": "2026-12-06",
+    "finish": "2027-01-28",
+    "p1": "ICT-T003-A01",
+    "p2": ""
+   },
+   {
+    "task": "ICT-T003",
+    "name": "System integration test",
+    "owner": "Tariq Nabil",
+    "start": "2027-01-31",
+    "finish": "2027-02-18",
+    "p1": "ICT-T003-A02",
+    "p2": "ICT-T003-A03"
+   },
+   {
+    "task": "ICT-T003",
+    "name": "User acceptance with Finance and SCM",
+    "owner": "Omar Khalil",
+    "start": "2027-02-21",
+    "finish": "2027-04-22",
+    "p1": "ICT-T003-A04",
+    "p2": ""
+   },
+   {
+    "task": "ICT-T003",
+    "name": "Production go-live and hypercare",
+    "owner": "Omar Khalil",
+    "start": "2027-04-25",
+    "finish": "2027-05-27",
+    "p1": "ICT-T003-A05",
+    "p2": ""
+   },
+   {
+    "task": "ICT-T006",
+    "name": "Monitoring and alerting set-up",
+    "owner": "Tariq Nabil",
+    "start": "2026-09-20",
+    "finish": "2026-10-29",
+    "p1": "",
+    "p2": ""
+   },
+   {
+    "task": "ICT-T006",
+    "name": "Root-cause the top 20 incident types",
+    "owner": "Tariq Nabil",
+    "start": "2026-10-04",
+    "finish": "2026-11-26",
+    "p1": "",
+    "p2": ""
+   },
+   {
+    "task": "ICT-T006",
+    "name": "Fix and release incident fixes",
+    "owner": "Omar Khalil",
+    "start": "2026-11-29",
+    "finish": "2027-01-07",
+    "p1": "ICT-T006-A02",
+    "p2": ""
+   },
+   {
+    "task": "ICT-T006",
+    "name": "Measure three months on target",
+    "owner": "Tariq Nabil",
+    "start": "2027-01-10",
+    "finish": "2027-03-25",
+    "p1": "ICT-T006-A01",
+    "p2": "ICT-T006-A03"
+   },
+   {
+    "task": "ICT-T040",
+    "name": "Collect requirements for the centre",
+    "owner": "Rania Adel",
+    "start": "2026-11-08",
+    "finish": "2026-11-14",
+    "p1": "",
+    "p2": ""
+   },
+   {
+    "task": "ICT-T040",
+    "name": "Draft activities, owners and dates",
+    "owner": "Rania Adel",
+    "start": "2026-11-15",
+    "finish": "2026-11-21",
+    "p1": "ICT-T040-A01",
+    "p2": ""
+   },
+   {
+    "task": "ICT-T040",
+    "name": "TMO review of the plan",
+    "owner": "Amr Gomaa",
+    "start": "2026-11-22",
+    "finish": "2026-11-26",
+    "p1": "ICT-T040-A02",
+    "p2": ""
+   },
+   {
+    "task": "ICT-T041",
+    "name": "Facility and legal set-up",
+    "owner": "Shadi Alghanim",
+    "start": "2026-12-06",
+    "finish": "2027-02-25",
+    "p1": "",
+    "p2": ""
+   },
+   {
+    "task": "ICT-T041",
+    "name": "Recruit the first 10 engineers",
+    "owner": "Shadi Alghanim",
+    "start": "2027-01-03",
+    "finish": "2027-05-13",
+    "p1": "",
+    "p2": ""
+   },
+   {
+    "task": "ICT-T041",
+    "name": "Access controls and onboarding",
+    "owner": "Tariq Nabil",
+    "start": "2027-04-04",
+    "finish": "2027-06-10",
+    "p1": "ICT-T041-A01",
+    "p2": ""
+   },
+   {
+    "task": "ICT-T041",
+    "name": "SLA reporting live",
+    "owner": "Lina Samir",
+    "start": "2027-06-13",
+    "finish": "2027-09-16",
+    "p1": "ICT-T041-A02",
+    "p2": "ICT-T041-A03"
+   }
+  ],
+  "deps": [
+   {
+    "task": "ICT-T001",
+    "from": "HR",
+    "need": "Job profiles for internal, partner and offshore roles",
+    "when": "During execution",
+    "their": "HR-T020"
+   },
+   {
+    "task": "ICT-T003",
+    "from": "FIN",
+    "need": "Cost-account mapping for postings",
+    "when": "During execution",
+    "their": "FIN-T007"
+   },
+   {
+    "task": "ICT-T003",
+    "from": "SCM",
+    "need": "Approved P2P procedures (L4)",
+    "when": "Before start",
+    "their": "SCM-T003"
+   },
+   {
+    "task": "ICT-T004",
+    "from": "FIN",
+    "need": "Licence cost data by cost centre",
+    "when": "Before start",
+    "their": "FIN-T002"
+   },
+   {
+    "task": "ICT-T006",
+    "from": "CM",
+    "need": "Agreed site reporting templates",
+    "when": "During execution",
+    "their": "CM-T005"
+   },
+   {
+    "task": "ICT-T007",
+    "from": "CM",
+    "need": "Two pilot projects and site engineers nominated",
+    "when": "Before start",
+    "their": "CM-T011"
+   },
+   {
+    "task": "ICT-T010",
+    "from": "OTH",
+    "need": "Approved departmental procedures in the EPMO library",
+    "when": "Before start",
+    "their": ""
+   },
+   {
+    "task": "ICT-T014",
+    "from": "HR",
+    "need": "Approved role catalogue",
+    "when": "During execution",
+    "their": "HR-T020"
+   },
+   {
+    "task": "ICT-T014",
+    "from": "SS",
+    "need": "Physical access rules for offices and sites",
+    "when": "During execution",
+    "their": "SS-T004"
+   },
+   {
+    "task": "ICT-T030",
+    "from": "HR",
+    "need": "Approved offshore staffing rules",
+    "when": "Before start",
+    "their": "HR-T012"
+   },
+   {
+    "task": "ICT-T030",
+    "from": "ENG",
+    "need": "Offshore reporting workspace",
+    "when": "During execution",
+    "their": "ENG-T007"
+   },
+   {
+    "task": "ICT-T031",
+    "from": "HR",
+    "need": "Pilot team released for two months",
+    "when": "Before start",
+    "their": "HR-T012"
+   },
+   {
+    "task": "ICT-T041",
+    "from": "HR",
+    "need": "Approved positions and hiring authority",
+    "when": "During execution",
+    "their": "HR-T015"
+   },
+   {
+    "task": "ICT-T041",
+    "from": "SS",
+    "need": "Office space and facilities in Amman",
+    "when": "Before start",
+    "their": "SS-T009"
+   },
+   {
+    "task": "ICT-T041",
+    "from": "FIN",
+    "need": "Budget released for the Amman centre",
+    "when": "Before start",
+    "their": "FIN-T009"
+   },
+   {
+    "task": "HR-T012",
+    "from": "ICT",
+    "need": "List of offshore roles and skills",
+    "when": "Before start",
+    "their": "ICT-T030"
+   },
+   {
+    "task": "HR-T015",
+    "from": "ICT",
+    "need": "Approved offshore strategy and staffing plan",
+    "when": "Before start",
+    "their": "ICT-T030"
+   },
+   {
+    "task": "HR-T020",
+    "from": "ICT",
+    "need": "Access tier needs per job family",
+    "when": "During execution",
+    "their": "ICT-T014"
+   },
+   {
+    "task": "FIN-T004",
+    "from": "ICT",
+    "need": "Validated project cost data",
+    "when": "Before start",
+    "their": "ICT-T045"
+   }
+  ],
+  "cons": [
+   {
+    "task": "ICT-T010",
+    "group": "SCM",
+    "what": "P2P procedures running as Tekwin workflows",
+    "when": "During execution",
+    "their": "SCM-T006"
+   },
+   {
+    "task": "ICT-T045",
+    "group": "FIN",
+    "what": "Project cost data and a review of the project cost structure",
+    "when": "Before start",
+    "their": "FIN-T004"
+   },
+   {
+    "task": "HR-T012",
+    "group": "ICT",
+    "what": "Approved offshore staffing rules",
+    "when": "Before start",
+    "their": "ICT-T030"
+   },
+   {
+    "task": "HR-T015",
+    "group": "ICT",
+    "what": "Approved positions for the Jordan centre",
+    "when": "During execution",
+    "their": "ICT-T041"
+   },
+   {
+    "task": "HR-T020",
+    "group": "ICT",
+    "what": "Role catalogue for the access tiers",
+    "when": "During execution",
+    "their": "ICT-T014"
+   },
+   {
+    "task": "HR-T020",
+    "group": "FIN",
+    "what": "Finance job families in the role catalogue",
+    "when": "During execution",
+    "their": "FIN-T004"
+   },
+   {
+    "task": "FIN-T007",
+    "group": "ICT",
+    "what": "Cost-account mapping for Tekwin postings",
+    "when": "During execution",
+    "their": "ICT-T003"
+   }
+  ]
+ }
+}
