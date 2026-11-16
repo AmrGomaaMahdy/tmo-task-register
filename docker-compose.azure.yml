@@ -1,0 +1,83 @@
+# Azure VM: frontend + backend on the VM, database on Azure Database for PostgreSQL (Flexible Server).
+# Caddy terminates HTTPS with a free Let's Encrypt certificate for APP_DOMAIN.
+#   cp deploy/azure/.env.azure.example .env   # fill it in
+#   docker compose -f docker-compose.azure.yml up -d
+name: task-register
+
+services:
+  backend:
+    image: ${IMAGE_PREFIX:-task-register}-backend:${IMAGE_TAG:-local}
+    build: ./backend
+    restart: unless-stopped
+    environment:
+      # Azure PostgreSQL: set DB_HOST, DB_USER, DB_PASSWORD (DB_SSLMODE stays "require"),
+      # or one DATABASE_URL instead (then special characters in the password must be URL-encoded).
+      DATABASE_URL: ${DATABASE_URL:-}
+      DB_HOST: ${DB_HOST:-}
+      DB_PORT: ${DB_PORT:-5432}
+      DB_NAME: ${DB_NAME:-task_register}
+      DB_USER: ${DB_USER:-}
+      DB_PASSWORD: ${DB_PASSWORD:-}
+      DB_SSLMODE: ${DB_SSLMODE:-require}
+      DJANGO_SECRET_KEY: ${DJANGO_SECRET_KEY:?Set DJANGO_SECRET_KEY}
+      DJANGO_DEBUG: "false"
+      DJANGO_ALLOWED_HOSTS: ${APP_DOMAIN:?Set APP_DOMAIN},localhost,127.0.0.1
+      DJANGO_CSRF_TRUSTED_ORIGINS: https://${APP_DOMAIN}
+      DJANGO_SECURE_COOKIES: "true"
+      DJANGO_SECURE_SSL_REDIRECT: "true"
+      DJANGO_HSTS_SECONDS: ${DJANGO_HSTS_SECONDS:-31536000}
+      DJANGO_LOG_LEVEL: ${DJANGO_LOG_LEVEL:-INFO}
+      DB_CONN_MAX_AGE: ${DB_CONN_MAX_AGE:-60}
+      SEED_DEMO: ${SEED_DEMO:-false}
+      DEMO_USER_PASSWORD: ${DEMO_USER_PASSWORD:-}
+      OIDC_ENABLED: ${OIDC_ENABLED:-false}
+      OIDC_TENANT_ID: ${OIDC_TENANT_ID:-}
+      OIDC_CLIENT_ID: ${OIDC_CLIENT_ID:-}
+      OIDC_CLIENT_SECRET: ${OIDC_CLIENT_SECRET:-}
+    read_only: true
+    tmpfs: [/tmp]
+    security_opt: ["no-new-privileges:true"]
+    cap_drop: [ALL]
+    logging: &logs
+      driver: json-file
+      options: { max-size: "10m", max-file: "5" }
+    networks: [internal]
+
+  frontend:
+    image: ${IMAGE_PREFIX:-task-register}-frontend:${IMAGE_TAG:-local}
+    build: ./frontend
+    restart: unless-stopped
+    depends_on:
+      backend:
+        condition: service_healthy
+    read_only: true
+    tmpfs: [/tmp]
+    security_opt: ["no-new-privileges:true"]
+    cap_drop: [ALL]
+    logging: *logs
+    networks: [internal]
+
+  caddy:
+    image: caddy:2.8-alpine
+    restart: unless-stopped
+    depends_on: [frontend]
+    ports:
+      - "80:80"
+      - "443:443"
+      - "443:443/udp"
+    environment:
+      APP_DOMAIN: ${APP_DOMAIN}
+      ACME_EMAIL: ${ACME_EMAIL:-}
+    volumes:
+      - ./deploy/azure/Caddyfile:/etc/caddy/Caddyfile:ro
+      - caddy_data:/data
+      - caddy_config:/config
+    logging: *logs
+    networks: [internal]
+
+volumes:
+  caddy_data:
+  caddy_config:
+
+networks:
+  internal:
