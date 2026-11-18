@@ -1,0 +1,2242 @@
+{
+ "tasks": [
+  {
+   "code": "CM-T005",
+   "wg": "CM",
+   "title": "Agree the daily site reporting templates for Tekwin",
+   "description": "Templates for daily progress, manpower and equipment reports, agreed with site engineers on two pilot projects.",
+   "dir": "CM-D02",
+   "ws": "Digitization & Automation",
+   "role": "Support",
+   "start": "2026-09-27",
+   "finish": "2026-12-17",
+   "status": "in_master_plan",
+   "sub": "AV-12-Cell Station",
+   "approval": null,
+   "partners": [],
+   "contributions": [
+    {
+     "to": "ICT",
+     "what": "Agreed site reporting templates",
+     "when": "During execution",
+     "their": "ICT-T006",
+     "review": [
+      "approved",
+      "",
+      null
+     ]
+    }
+   ],
+   "acts": [
+    {
+     "name": "Collect the current site reports",
+     "owner": "Rajab Abdulghani",
+     "start": "2026-09-27",
+     "finish": "2026-10-16",
+     "after": []
+    },
+    {
+     "name": "Draft the common templates",
+     "owner": "Kareem Kanampuram",
+     "start": "2026-10-17",
+     "finish": "2026-11-05",
+     "after": [
+      1
+     ]
+    },
+    {
+     "name": "Review with site engineers",
+     "owner": "Abid Hussain",
+     "start": "2026-11-06",
+     "finish": "2026-11-25",
+     "after": [
+      2
+     ]
+    },
+    {
+     "name": "Approve and hand over to ICT",
+     "owner": "Mohammed Abdul Moneem",
+     "start": "2026-11-26",
+     "finish": "2026-12-17",
+     "after": [
+      3
+     ]
+    }
+   ]
+  },
+  {
+   "code": "CM-T011",
+   "wg": "CM",
+   "title": "Nominate the AI pilot projects and site engineers",
+   "description": "Two projects and their site engineers for the AI daily-report pilot, with release from site duties.",
+   "dir": "CM-D04",
+   "ws": "Implementation",
+   "role": "Support",
+   "start": "2027-02-07",
+   "finish": "2027-03-25",
+   "status": "ready",
+   "sub": "AV-14-Construction Management",
+   "approval": null,
+   "partners": [],
+   "contributions": [
+    {
+     "to": "ICT",
+     "what": "Two pilot projects and site engineers nominated",
+     "when": "Before start",
+     "their": "ICT-T007",
+     "review": [
+      "approved",
+      "",
+      null
+     ]
+    }
+   ],
+   "acts": [
+    {
+     "name": "Shortlist candidate projects",
+     "owner": "Rajab Abdulghani",
+     "start": "2027-02-07",
+     "finish": "2027-02-21",
+     "after": []
+    },
+    {
+     "name": "Nominate site engineers",
+     "owner": "Kareem Kanampuram",
+     "start": "2027-02-22",
+     "finish": "2027-03-08",
+     "after": [
+      1
+     ]
+    },
+    {
+     "name": "Confirm release with project managers",
+     "owner": "Abid Hussain",
+     "start": "2027-03-09",
+     "finish": "2027-03-25",
+     "after": [
+      2
+     ]
+    }
+   ]
+  },
+  {
+   "code": "ENG-T007",
+   "wg": "ENG",
+   "title": "Provide the offshore engineering reporting workspace",
+   "description": "Shared BIM and reporting workspace the offshore team can use from Amman.",
+   "dir": "ENG-D03",
+   "ws": "Offshoring",
+   "role": "Support",
+   "start": "2026-11-15",
+   "finish": "2027-01-21",
+   "status": "ready",
+   "sub": "AK-2-BIM Initiatives",
+   "approval": null,
+   "partners": [],
+   "contributions": [
+    {
+     "to": "ICT",
+     "what": "Offshore reporting workspace",
+     "when": "Before start",
+     "their": "ICT-T030",
+     "review": [
+      "approved",
+      "",
+      null
+     ]
+    }
+   ],
+   "acts": [
+    {
+     "name": "Define the workspace content",
+     "owner": "Amro Abualia",
+     "start": "2026-11-15",
+     "finish": "2026-12-06",
+     "after": []
+    },
+    {
+     "name": "Set up folders and access",
+     "owner": "Echchibi Mohamed",
+     "start": "2026-12-07",
+     "finish": "2026-12-28",
+     "after": [
+      1
+     ]
+    },
+    {
+     "name": "Pilot with two offshore engineers",
+     "owner": "Ali Kamel Younes",
+     "start": "2026-12-29",
+     "finish": "2027-01-21",
+     "after": [
+      2
+     ]
+    }
+   ]
+  },
+  {
+   "code": "FIN-T002",
+   "wg": "FIN",
+   "title": "Report licence cost by cost centre",
+   "description": "Oracle licence cost allocated to cost centres, so ICT can review allocation against use.",
+   "dir": "FIN-D01",
+   "ws": "Business Plan Execution",
+   "role": "Support",
+   "start": "2026-08-30",
+   "finish": "2026-10-15",
+   "status": "in_master_plan",
+   "sub": "HS-9-Fixed Cost Structure",
+   "approval": null,
+   "partners": [],
+   "contributions": [
+    {
+     "to": "ICT",
+     "what": "Licence cost data by cost centre",
+     "when": "Before start",
+     "their": "ICT-T004",
+     "review": [
+      "approved",
+      "",
+      null
+     ]
+    }
+   ],
+   "acts": [
+    {
+     "name": "Extract licence invoices",
+     "owner": "Abdullah Mohammed Domah",
+     "start": "2026-08-30",
+     "finish": "2026-09-13",
+     "after": []
+    },
+    {
+     "name": "Allocate by cost centre",
+     "owner": "Mohamed Fouda",
+     "start": "2026-09-14",
+     "finish": "2026-09-28",
+     "after": [
+      1
+     ]
+    },
+    {
+     "name": "Publish the report",
+     "owner": "Saad Mohsen Saad",
+     "start": "2026-09-29",
+     "finish": "2026-10-15",
+     "after": [
+      2
+     ]
+    }
+   ]
+  },
+  {
+   "code": "FIN-T009",
+   "wg": "FIN",
+   "title": "Release the budget for the Amman development centre",
+   "description": "Capital and first-year operating budget for the Jordan centre, released in two tranches.",
+   "dir": "FIN-D03",
+   "ws": "Offshoring",
+   "role": "Enable",
+   "start": "2026-12-06",
+   "finish": "2027-02-18",
+   "status": "ready",
+   "sub": "WB-2-G&A optimization",
+   "approval": null,
+   "partners": [],
+   "contributions": [
+    {
+     "to": "ICT",
+     "what": "Budget released for the Amman centre",
+     "when": "Before start",
+     "their": "ICT-T041",
+     "review": [
+      "timeline",
+      "First tranche in January, the second after the hiring plan is approved.",
+      "2027-03-15"
+     ]
+    }
+   ],
+   "acts": [
+    {
+     "name": "Review the business case",
+     "owner": "Abdullah Mohammed Domah",
+     "start": "2026-12-06",
+     "finish": "2026-12-23",
+     "after": []
+    },
+    {
+     "name": "Approve the capital budget",
+     "owner": "Mohamed Fouda",
+     "start": "2026-12-24",
+     "finish": "2027-01-10",
+     "after": [
+      1
+     ]
+    },
+    {
+     "name": "Release the first tranche",
+     "owner": "Saad Mohsen Saad",
+     "start": "2027-01-11",
+     "finish": "2027-01-28",
+     "after": [
+      2
+     ]
+    },
+    {
+     "name": "Release the second tranche",
+     "owner": "Abdullah Mohammed Domah",
+     "start": "2027-01-29",
+     "finish": "2027-02-18",
+     "after": [
+      3
+     ]
+    }
+   ]
+  },
+  {
+   "code": "SCM-T003",
+   "wg": "SCM",
+   "title": "Approve the procure-to-pay procedures (L4)",
+   "description": "Level-4 procedures for requisitions, purchase orders and receipts, ready to be built as Tekwin workflows.",
+   "dir": "SCM-D04",
+   "ws": "Blueprint Detailing (L4/L5)",
+   "role": "Enable",
+   "start": "2026-09-20",
+   "finish": "2027-01-14",
+   "status": "in_master_plan",
+   "sub": "WB-6-SCM (Head /PLAN /EXECUTION )",
+   "approval": null,
+   "partners": [],
+   "contributions": [
+    {
+     "to": "ICT",
+     "what": "Approved P2P procedures (L4)",
+     "when": "Before start",
+     "their": "ICT-T003",
+     "review": [
+      "approved",
+      "",
+      null
+     ]
+    }
+   ],
+   "acts": [
+    {
+     "name": "Map the current P2P steps",
+     "owner": "Mohammed AbdulAziz Al Hudaithi",
+     "start": "2026-09-20",
+     "finish": "2026-10-18",
+     "after": []
+    },
+    {
+     "name": "Simplify and align with governance",
+     "owner": "Magdy Radwan",
+     "start": "2026-10-19",
+     "finish": "2026-11-16",
+     "after": [
+      1
+     ]
+    },
+    {
+     "name": "Review with Finance",
+     "owner": "Mohammed Ibrahem Elzughby",
+     "start": "2026-11-17",
+     "finish": "2026-12-15",
+     "after": [
+      2
+     ]
+    },
+    {
+     "name": "Approve the procedures",
+     "owner": "Yasser Mohamed",
+     "start": "2026-12-16",
+     "finish": "2027-01-14",
+     "after": [
+      3
+     ]
+    }
+   ]
+  },
+  {
+   "code": "SCM-T006",
+   "wg": "SCM",
+   "title": "Run procure-to-pay on Tekwin workflows",
+   "description": "Requisitions, purchase orders and receipts move to Tekwin workflows on every project.",
+   "dir": "SCM-D10",
+   "ws": "Digitization & Automation",
+   "role": "Direct",
+   "start": "2027-03-14",
+   "finish": "2027-09-30",
+   "status": "ready",
+   "sub": "WB-4-SCM(MATERRIAL-SUBCONTRACTING )",
+   "approval": [
+    "approved",
+    ""
+   ],
+   "partners": [
+    {
+     "group": "ICT",
+     "role": "Enable",
+     "need": "P2P workflows built and tested on Tekwin",
+     "when": "Before start",
+     "their": "ICT-T010",
+     "review": [
+      "approved",
+      "",
+      null
+     ]
+    }
+   ],
+   "contributions": [],
+   "acts": [
+    {
+     "name": "Train buyers and storekeepers",
+     "owner": "Mohammed AbdulAziz Al Hudaithi",
+     "start": "2027-03-14",
+     "finish": "2027-05-02",
+     "after": []
+    },
+    {
+     "name": "Go live on two projects",
+     "owner": "Magdy Radwan",
+     "start": "2027-05-03",
+     "finish": "2027-06-21",
+     "after": [
+      1
+     ]
+    },
+    {
+     "name": "Roll out to all projects",
+     "owner": "Mohammed Ibrahem Elzughby",
+     "start": "2027-06-22",
+     "finish": "2027-08-10",
+     "after": [
+      2
+     ]
+    },
+    {
+     "name": "Retire the paper forms",
+     "owner": "Yasser Mohamed",
+     "start": "2027-08-11",
+     "finish": "2027-09-30",
+     "after": [
+      3
+     ]
+    }
+   ]
+  },
+  {
+   "code": "SS-T004",
+   "wg": "SS",
+   "title": "Set the physical access rules for offices and sites",
+   "description": "Badge and visitor rules per site, aligned with the cybersecurity access tiers.",
+   "dir": "SS-D02",
+   "ws": "Blueprint Detailing (L4/L5)",
+   "role": "Support",
+   "start": "2026-10-18",
+   "finish": "2027-01-07",
+   "status": "in_master_plan",
+   "sub": "WB-1-Support Services Structuer Enhancment",
+   "approval": null,
+   "partners": [],
+   "contributions": [
+    {
+     "to": "ICT",
+     "what": "Physical access rules for offices and sites",
+     "when": "During execution",
+     "their": "ICT-T014",
+     "review": [
+      "approved",
+      "",
+      null
+     ]
+    }
+   ],
+   "acts": [
+    {
+     "name": "List sites and access points",
+     "owner": "Ibrahim Mohammed Alhebaishi",
+     "start": "2026-10-18",
+     "finish": "2026-11-13",
+     "after": []
+    },
+    {
+     "name": "Define the access rules",
+     "owner": "Salah Sobhy Salah Mohamed",
+     "start": "2026-11-14",
+     "finish": "2026-12-10",
+     "after": [
+      1
+     ]
+    },
+    {
+     "name": "Approve with HSE",
+     "owner": "Mahmoud Mohamed Talaat",
+     "start": "2026-12-11",
+     "finish": "2027-01-07",
+     "after": [
+      2
+     ]
+    }
+   ]
+  },
+  {
+   "code": "SS-T009",
+   "wg": "SS",
+   "title": "Prepare office space and facilities in Amman",
+   "description": "Leased office, furniture, network room and services for 40 seats.",
+   "dir": "SS-D02",
+   "ws": "Offshoring",
+   "role": "Support",
+   "start": "2027-01-10",
+   "finish": "2027-05-27",
+   "status": "ready",
+   "sub": "WB-1-Support Services Structuer Enhancment",
+   "approval": null,
+   "partners": [],
+   "contributions": [
+    {
+     "to": "ICT",
+     "what": "Office space and facilities in Amman",
+     "when": "Before start",
+     "their": "ICT-T041",
+     "review": [
+      "clarification",
+      "Is the target 40 seats in phase 1, or 25 now and 15 later?",
+      null
+     ]
+    }
+   ],
+   "acts": [
+    {
+     "name": "Select the office",
+     "owner": "Ibrahim Mohammed Alhebaishi",
+     "start": "2027-01-10",
+     "finish": "2027-02-12",
+     "after": []
+    },
+    {
+     "name": "Sign the lease",
+     "owner": "Salah Sobhy Salah Mohamed",
+     "start": "2027-02-13",
+     "finish": "2027-03-18",
+     "after": [
+      1
+     ]
+    },
+    {
+     "name": "Fit out the office",
+     "owner": "Mahmoud Mohamed Talaat",
+     "start": "2027-03-19",
+     "finish": "2027-04-21",
+     "after": [
+      2
+     ]
+    },
+    {
+     "name": "Hand over to ICT",
+     "owner": "Abdulelah Al Ayuni",
+     "start": "2027-04-22",
+     "finish": "2027-05-27",
+     "after": [
+      3
+     ]
+    }
+   ]
+  },
+  {
+   "code": "HR-T024",
+   "wg": "HR",
+   "title": "Launch employee self-service for leave and letters",
+   "description": "Employees request leave, salary certificates and letters on Tekwin; approvals follow the authority matrix.",
+   "dir": "HR-D01",
+   "ws": "Digitization & Automation",
+   "role": "Direct",
+   "start": "2027-01-17",
+   "finish": "2027-06-30",
+   "status": "ready",
+   "sub": "WB-5-HR (Head /PLAN /EXECUTION )",
+   "approval": [
+    "approved",
+    ""
+   ],
+   "partners": [
+    {
+     "group": "ICT",
+     "role": "Enable",
+     "need": "Self-service workflows on Tekwin",
+     "when": "Before start",
+     "their": "ICT-T050",
+     "review": null
+    }
+   ],
+   "contributions": [],
+   "acts": [
+    {
+     "name": "Approve leave and letter policies",
+     "owner": "Thamer Filimban",
+     "start": "2027-01-17",
+     "finish": "2027-02-18",
+     "after": []
+    },
+    {
+     "name": "Design the request forms",
+     "owner": "Amer Abduh",
+     "start": "2027-02-19",
+     "finish": "2027-03-23",
+     "after": [
+      1
+     ]
+    },
+    {
+     "name": "User acceptance test",
+     "owner": "Bilal Nabil Malass",
+     "start": "2027-03-24",
+     "finish": "2027-04-25",
+     "after": [
+      2
+     ]
+    },
+    {
+     "name": "Go live for HQ",
+     "owner": "Raed Smaidi",
+     "start": "2027-04-26",
+     "finish": "2027-05-28",
+     "after": [
+      3
+     ]
+    },
+    {
+     "name": "Roll out to sites",
+     "owner": "Hassan Farooq",
+     "start": "2027-05-29",
+     "finish": "2027-06-30",
+     "after": [
+      4
+     ]
+    }
+   ]
+  },
+  {
+   "code": "HR-T025",
+   "wg": "HR",
+   "title": "Hire six developers for the Amman centre",
+   "description": "Recruit the first developers of the offshore team: two Tekwin, two Oracle and two data engineers.",
+   "dir": "HR-D06",
+   "ws": "Offshoring",
+   "role": "Support",
+   "start": "2027-02-07",
+   "finish": "2027-05-13",
+   "status": "ready",
+   "sub": "WB-3-Manpower Utilization",
+   "approval": null,
+   "partners": [],
+   "contributions": [
+    {
+     "to": "ICT",
+     "what": "Six developers hired and onboarded",
+     "when": "During execution",
+     "their": "ICT-T041",
+     "review": null
+    }
+   ],
+   "acts": [
+    {
+     "name": "Agree job profiles with ICT",
+     "owner": "Thamer Filimban",
+     "start": "2027-02-07",
+     "finish": "2027-03-02",
+     "after": []
+    },
+    {
+     "name": "Advertise and shortlist",
+     "owner": "Amer Abduh",
+     "start": "2027-03-03",
+     "finish": "2027-03-26",
+     "after": [
+      1
+     ]
+    },
+    {
+     "name": "Interview with ICT",
+     "owner": "Bilal Nabil Malass",
+     "start": "2027-03-27",
+     "finish": "2027-04-19",
+     "after": [
+      2
+     ]
+    },
+    {
+     "name": "Offer and onboard",
+     "owner": "Raed Smaidi",
+     "start": "2027-04-20",
+     "finish": "2027-05-13",
+     "after": [
+      3
+     ]
+    }
+   ]
+  },
+  {
+   "code": "FIN-T012",
+   "wg": "FIN",
+   "title": "Automate the monthly project cost close",
+   "description": "Cost postings flow daily from Tekwin to Oracle so the month closes in five working days.",
+   "dir": "FIN-D05",
+   "ws": "Digitization & Automation",
+   "role": "Direct",
+   "start": "2027-02-14",
+   "finish": "2027-07-29",
+   "status": "needs_completion",
+   "sub": "HS-4-Accounting Entries",
+   "approval": [
+    "pending",
+    ""
+   ],
+   "partners": [
+    {
+     "group": "ICT",
+     "role": "Support",
+     "need": "Oracle–Tekwin cost interface running daily",
+     "when": "Before start",
+     "their": "ICT-T003",
+     "review": null
+    },
+    {
+     "group": "PM",
+     "role": "Support",
+     "need": "Project cost codes aligned with the planning structure",
+     "when": "Before start",
+     "their": "PM-T004",
+     "review": [
+      "approved",
+      "",
+      null
+     ]
+    }
+   ],
+   "contributions": [],
+   "acts": [
+    {
+     "name": "Define the close calendar",
+     "owner": "Abdullah Mohammed Domah",
+     "start": "2027-02-14",
+     "finish": "2027-03-26",
+     "after": []
+    },
+    {
+     "name": "Reconcile the cost postings",
+     "owner": "Mohamed Fouda",
+     "start": "2027-03-27",
+     "finish": "2027-05-06",
+     "after": [
+      1
+     ]
+    },
+    {
+     "name": "Automate the accruals",
+     "owner": "Saad Mohsen Saad",
+     "start": "2027-05-07",
+     "finish": "2027-06-16",
+     "after": [
+      2
+     ]
+    },
+    {
+     "name": "Run a parallel close",
+     "owner": "Abdullah Mohammed Domah",
+     "start": "2027-06-17",
+     "finish": "2027-07-29",
+     "after": [
+      3
+     ]
+    }
+   ]
+  },
+  {
+   "code": "PM-T003",
+   "wg": "PM",
+   "title": "Roll out the central planning platform",
+   "description": "One planning platform for the Infrastructure Unit with standard calendars, codes and baselines.",
+   "dir": "PM-D03",
+   "ws": "Implementation",
+   "role": "Direct",
+   "start": "2026-12-13",
+   "finish": "2027-06-24",
+   "status": "in_master_plan",
+   "sub": "AO-15-Stage Gate Model",
+   "approval": [
+    "approved",
+    ""
+   ],
+   "partners": [
+    {
+     "group": "ICT",
+     "role": "Enable",
+     "need": "Unifier environments and integration with Oracle",
+     "when": "Before start",
+     "their": "ICT-T051",
+     "review": [
+      "clarification",
+      "Do you need a separate test environment per region, or one shared?",
+      null
+     ]
+    },
+    {
+     "group": "CM",
+     "role": "Support",
+     "need": "Site planners nominated for each project",
+     "when": "During execution",
+     "their": "CM-T014",
+     "review": [
+      "approved",
+      "",
+      null
+     ]
+    }
+   ],
+   "contributions": [],
+   "acts": [
+    {
+     "name": "Agree the planning standards",
+     "owner": "Uduman Thangal",
+     "start": "2026-12-13",
+     "finish": "2027-01-19",
+     "after": []
+    },
+    {
+     "name": "Configure the platform",
+     "owner": "Islam Hamed",
+     "start": "2027-01-20",
+     "finish": "2027-02-26",
+     "after": [
+      1
+     ]
+    },
+    {
+     "name": "Migrate the live schedules",
+     "owner": "Hossam Ahmed Abdel Maneam",
+     "start": "2027-02-27",
+     "finish": "2027-04-05",
+     "after": [
+      2
+     ]
+    },
+    {
+     "name": "Train the planners",
+     "owner": "Ayman Elghamrawi",
+     "start": "2027-04-06",
+     "finish": "2027-05-13",
+     "after": [
+      3
+     ]
+    },
+    {
+     "name": "Close the old tools",
+     "owner": "Azzam Hamad Alayuni",
+     "start": "2027-05-14",
+     "finish": "2027-06-24",
+     "after": [
+      4
+     ]
+    }
+   ]
+  },
+  {
+   "code": "PM-T004",
+   "wg": "PM",
+   "title": "Align project cost codes with the planning structure",
+   "description": "One coding structure from the schedule to the cost ledger, so cost can be controlled by activity.",
+   "dir": "PM-D04",
+   "ws": "Blueprint Detailing (L4/L5)",
+   "role": "Enable",
+   "start": "2026-11-29",
+   "finish": "2027-02-11",
+   "status": "ready",
+   "sub": "AO-15-Stage Gate Model",
+   "approval": null,
+   "partners": [],
+   "contributions": [
+    {
+     "to": "FIN",
+     "what": "Project cost codes aligned with the planning structure",
+     "when": "Before start",
+     "their": "FIN-T012",
+     "review": [
+      "approved",
+      "",
+      null
+     ]
+    }
+   ],
+   "acts": [
+    {
+     "name": "Compare the two structures",
+     "owner": "Uduman Thangal",
+     "start": "2026-11-29",
+     "finish": "2026-12-23",
+     "after": []
+    },
+    {
+     "name": "Agree the common code",
+     "owner": "Islam Hamed",
+     "start": "2026-12-24",
+     "finish": "2027-01-17",
+     "after": [
+      1
+     ]
+    },
+    {
+     "name": "Publish the mapping",
+     "owner": "Hossam Ahmed Abdel Maneam",
+     "start": "2027-01-18",
+     "finish": "2027-02-11",
+     "after": [
+      2
+     ]
+    }
+   ]
+  },
+  {
+   "code": "PM-T006",
+   "wg": "PM",
+   "title": "Stand up the central Project Controls team",
+   "description": "A central team for schedule, cost and risk control, part onshore and part offshore.",
+   "dir": "PM-D05",
+   "ws": "Implementation",
+   "role": "Direct",
+   "start": "2027-01-10",
+   "finish": "2027-08-26",
+   "status": "draft",
+   "sub": "AO-16-Spin-Off Infrastructure",
+   "approval": [
+    "clarification",
+    "Show the onshore / offshore split and the cost per year before I approve."
+   ],
+   "partners": [
+    {
+     "group": "HR",
+     "role": "Support",
+     "need": "Approved positions for Project Controls",
+     "when": "Before start",
+     "their": "HR-T026",
+     "review": null
+    }
+   ],
+   "contributions": [],
+   "acts": [
+    {
+     "name": "Define roles and size",
+     "owner": "Uduman Thangal",
+     "start": "2027-01-10",
+     "finish": "2027-03-07",
+     "after": []
+    },
+    {
+     "name": "Approve the positions",
+     "owner": "Islam Hamed",
+     "start": "2027-03-08",
+     "finish": "2027-05-03",
+     "after": [
+      1
+     ]
+    },
+    {
+     "name": "Recruit the team",
+     "owner": "Hossam Ahmed Abdel Maneam",
+     "start": "2027-05-04",
+     "finish": "2027-06-29",
+     "after": [
+      2
+     ]
+    },
+    {
+     "name": "Start weekly controls",
+     "owner": "Ayman Elghamrawi",
+     "start": "2027-06-30",
+     "finish": "2027-08-26",
+     "after": [
+      3
+     ]
+    }
+   ]
+  },
+  {
+   "code": "CM-T014",
+   "wg": "CM",
+   "title": "Build the Cell Station daily productivity dashboard",
+   "description": "Daily output per cell against the plan, from Tekwin site reports, for every project manager.",
+   "dir": "CM-D08",
+   "ws": "Digitization & Automation",
+   "role": "Direct",
+   "start": "2027-01-24",
+   "finish": "2027-05-20",
+   "status": "ready",
+   "sub": "AV-12-Cell Station",
+   "approval": [
+    "pending",
+    ""
+   ],
+   "partners": [
+    {
+     "group": "ICT",
+     "role": "Support",
+     "need": "Dashboard built on the Tekwin site-report data",
+     "when": "During execution",
+     "their": "ICT-T057",
+     "review": null
+    },
+    {
+     "group": "PM",
+     "role": "Support",
+     "need": "Planned quantities per cell from the schedule",
+     "when": "Before start",
+     "their": "PM-T003",
+     "review": [
+      "approved",
+      "",
+      null
+     ]
+    }
+   ],
+   "contributions": [],
+   "acts": [
+    {
+     "name": "Define the productivity measures",
+     "owner": "Rajab Abdulghani",
+     "start": "2027-01-24",
+     "finish": "2027-02-21",
+     "after": []
+    },
+    {
+     "name": "Map the data sources",
+     "owner": "Kareem Kanampuram",
+     "start": "2027-02-22",
+     "finish": "2027-03-22",
+     "after": [
+      1
+     ]
+    },
+    {
+     "name": "Build the first version",
+     "owner": "Abid Hussain",
+     "start": "2027-03-23",
+     "finish": "2027-04-20",
+     "after": [
+      2
+     ]
+    },
+    {
+     "name": "Pilot on two projects",
+     "owner": "Mohammed Abdul Moneem",
+     "start": "2027-04-21",
+     "finish": "2027-05-20",
+     "after": [
+      3
+     ]
+    }
+   ]
+  },
+  {
+   "code": "EQP-T004",
+   "wg": "EQP",
+   "title": "Fit telematics to the heavy fleet",
+   "description": "GPS and engine-hour telematics on 350 heavy units, feeding utilization and fuel reports.",
+   "dir": "EQP-D03",
+   "ws": "Digitization & Automation",
+   "role": "Direct",
+   "start": "2027-01-03",
+   "finish": "2027-07-15",
+   "status": "ready",
+   "sub": "AV-15-Equipment digitalization",
+   "approval": [
+    "approved",
+    ""
+   ],
+   "partners": [
+    {
+     "group": "ICT",
+     "role": "Support",
+     "need": "Telematics data platform and integration with Oracle assets",
+     "when": "Before start",
+     "their": "ICT-T053",
+     "review": [
+      "timeline",
+      "The integration needs the Oracle asset clean-up first; we can deliver by end of April.",
+      "2027-04-30"
+     ]
+    },
+    {
+     "group": "SCM",
+     "role": "Support",
+     "need": "Supplier contract for devices and airtime",
+     "when": "Before start",
+     "their": "SCM-T009",
+     "review": [
+      "approved",
+      "",
+      null
+     ]
+    }
+   ],
+   "contributions": [],
+   "acts": [
+    {
+     "name": "Select the telematics supplier",
+     "owner": "Farhan Shariff",
+     "start": "2027-01-03",
+     "finish": "2027-02-19",
+     "after": []
+    },
+    {
+     "name": "Install on the first 100 units",
+     "owner": "Maged Ahmed Mohammed Abo El Enein",
+     "start": "2027-02-20",
+     "finish": "2027-04-08",
+     "after": [
+      1
+     ]
+    },
+    {
+     "name": "Connect the data platform",
+     "owner": "Tariq Ali Alayuni",
+     "start": "2027-04-09",
+     "finish": "2027-05-26",
+     "after": [
+      2
+     ]
+    },
+    {
+     "name": "Install on the remaining units",
+     "owner": "Aziz Ahmad Wani",
+     "start": "2027-05-27",
+     "finish": "2027-07-15",
+     "after": [
+      3
+     ]
+    }
+   ]
+  },
+  {
+   "code": "BD-T003",
+   "wg": "BD",
+   "title": "Run the Oxygen 27 pipeline in a CRM",
+   "description": "Track every Oxygen 27 opportunity from lead to award, with weekly pipeline reports.",
+   "dir": "BD-D02",
+   "ws": "Business Plan Execution",
+   "role": "Direct",
+   "start": "2026-12-06",
+   "finish": "2027-03-25",
+   "status": "needs_completion",
+   "sub": "YM-2-Market competitiveness (Where to Play & How We Win)",
+   "approval": [
+    "pending",
+    ""
+   ],
+   "partners": [
+    {
+     "group": "ICT",
+     "role": "Support",
+     "need": "A CRM set up for the pipeline",
+     "when": "Before start",
+     "their": "",
+     "review": [
+      "rejected",
+      "Please use the Oracle CX licence we already own; raise it through the ICT demand process and we will plan it.",
+      null
+     ]
+    }
+   ],
+   "contributions": [],
+   "acts": [
+    {
+     "name": "List the pipeline fields",
+     "owner": "Ahriff Sheriff",
+     "start": "2026-12-06",
+     "finish": "2027-01-10",
+     "after": []
+    },
+    {
+     "name": "Load the current opportunities",
+     "owner": "Karim Chettouh",
+     "start": "2027-01-11",
+     "finish": "2027-02-15",
+     "after": [
+      1
+     ]
+    },
+    {
+     "name": "Start weekly pipeline reviews",
+     "owner": "Nader Mohamed Elsherbiny",
+     "start": "2027-02-16",
+     "finish": "2027-03-25",
+     "after": [
+      2
+     ]
+    }
+   ]
+  },
+  {
+   "code": "ENG-T009",
+   "wg": "ENG",
+   "title": "Publish the company-standard BIM models",
+   "description": "Standard BIM templates and object libraries for roads, utilities and structures.",
+   "dir": "ENG-D06",
+   "ws": "Blueprint Detailing (L4/L5)",
+   "role": "Direct",
+   "start": "2027-01-10",
+   "finish": "2027-06-10",
+   "status": "ready",
+   "sub": "AK-2-BIM Initiatives",
+   "approval": [
+    "approved",
+    ""
+   ],
+   "partners": [
+    {
+     "group": "ICT",
+     "role": "Support",
+     "need": "BIM server hosting and backup",
+     "when": "Before start",
+     "their": "ICT-T054",
+     "review": null
+    }
+   ],
+   "contributions": [],
+   "acts": [
+    {
+     "name": "Collect the current models",
+     "owner": "Amro Abualia",
+     "start": "2027-01-10",
+     "finish": "2027-02-16",
+     "after": []
+    },
+    {
+     "name": "Define the object libraries",
+     "owner": "Echchibi Mohamed",
+     "start": "2027-02-17",
+     "finish": "2027-03-26",
+     "after": [
+      1
+     ]
+    },
+    {
+     "name": "Build the templates",
+     "owner": "Ali Kamel Younes",
+     "start": "2027-03-27",
+     "finish": "2027-05-03",
+     "after": [
+      2
+     ]
+    },
+    {
+     "name": "Train the design teams",
+     "owner": "Mohamed Mustafa Elnagger",
+     "start": "2027-05-04",
+     "finish": "2027-06-10",
+     "after": [
+      3
+     ]
+    }
+   ]
+  },
+  {
+   "code": "OTH-T004",
+   "wg": "OTH",
+   "title": "Publish the standard terminology and operating-model coding",
+   "description": "One glossary and one coding scheme for functions, processes and KPIs, used by every system.",
+   "dir": "OTH-D05",
+   "ws": "Blueprint Detailing (L4/L5)",
+   "role": "Enable",
+   "start": "2026-11-15",
+   "finish": "2027-02-04",
+   "status": "ready",
+   "sub": "YM-5-Standardized Terminology",
+   "approval": null,
+   "partners": [],
+   "contributions": [
+    {
+     "to": "ICT",
+     "what": "Standard terms and codes for the master platform",
+     "when": "Before start",
+     "their": "ICT-T046",
+     "review": null
+    }
+   ],
+   "acts": [
+    {
+     "name": "Collect terms from the Blueprints",
+     "owner": "Ahmad Hammad",
+     "start": "2026-11-15",
+     "finish": "2026-12-11",
+     "after": []
+    },
+    {
+     "name": "Agree the coding scheme",
+     "owner": "Jahangeer Khan",
+     "start": "2026-12-12",
+     "finish": "2027-01-07",
+     "after": [
+      1
+     ]
+    },
+    {
+     "name": "Approve and publish",
+     "owner": "Firas Hijazi",
+     "start": "2027-01-08",
+     "finish": "2027-02-04",
+     "after": [
+      2
+     ]
+    }
+   ]
+  },
+  {
+   "code": "OTH-T006",
+   "wg": "OTH",
+   "title": "Publish the approved departmental procedures in the EPMO library",
+   "description": "Every approved Level-4 procedure in one EPMO library, with owner, version and the workflow it becomes.",
+   "dir": "OTH-D05",
+   "ws": "Blueprint Detailing (L4/L5)",
+   "role": "Support",
+   "start": "2026-12-06",
+   "finish": "2027-03-04",
+   "status": "ready",
+   "sub": "YM-1-EPMO (Head /PLAN /EXECUTION )",
+   "approval": null,
+   "partners": [],
+   "contributions": [
+    {
+     "to": "ICT",
+     "what": "Approved departmental procedures in the EPMO library",
+     "when": "Before start",
+     "their": "ICT-T010",
+     "review": null
+    }
+   ],
+   "acts": [
+    {
+     "name": "Collect the approved procedures",
+     "owner": "Ahmad Hammad",
+     "start": "2026-12-06",
+     "finish": "2027-01-03",
+     "after": []
+    },
+    {
+     "name": "Set up the library",
+     "owner": "Jahangeer Khan",
+     "start": "2027-01-04",
+     "finish": "2027-02-01",
+     "after": [
+      1
+     ]
+    },
+    {
+     "name": "Publish and announce",
+     "owner": "Firas Hijazi",
+     "start": "2027-02-02",
+     "finish": "2027-03-04",
+     "after": [
+      2
+     ]
+    }
+   ]
+  },
+  {
+   "code": "PRD-T002",
+   "wg": "PRD",
+   "title": "Raise crusher and asphalt plant utilization",
+   "description": "Plan plant shifts against demand from projects and external customers to reach 75% utilization.",
+   "dir": "PRD-D01",
+   "ws": "Business Plan Execution",
+   "role": "Direct",
+   "start": "2026-11-29",
+   "finish": "2027-05-27",
+   "status": "in_master_plan",
+   "sub": "AV-10-Production unit utilization and efficiency",
+   "approval": [
+    "approved",
+    ""
+   ],
+   "partners": [
+    {
+     "group": "EQP",
+     "role": "Support",
+     "need": "Haulage trucks scheduled with the plants",
+     "when": "During execution",
+     "their": "EQP-T006",
+     "review": [
+      "approved",
+      "",
+      null
+     ]
+    },
+    {
+     "group": "ICT",
+     "role": "Support",
+     "need": "Plant output captured daily in Tekwin",
+     "when": "During execution",
+     "their": "ICT-T058",
+     "review": [
+      "approved",
+      "",
+      null
+     ]
+    }
+   ],
+   "contributions": [],
+   "acts": [
+    {
+     "name": "Measure current utilization",
+     "owner": "Osama Elnaggar",
+     "start": "2026-11-29",
+     "finish": "2027-01-12",
+     "after": []
+    },
+    {
+     "name": "Plan shifts against demand",
+     "owner": "Waleed Othman Alayuni",
+     "start": "2027-01-13",
+     "finish": "2027-02-26",
+     "after": [
+      1
+     ]
+    },
+    {
+     "name": "Agree the haulage schedule",
+     "owner": "Afzaal Asghar",
+     "start": "2027-02-27",
+     "finish": "2027-04-12",
+     "after": [
+      2
+     ]
+    },
+    {
+     "name": "Report weekly",
+     "owner": "Amjath Khan Ali",
+     "start": "2027-04-13",
+     "finish": "2027-05-27",
+     "after": [
+      3
+     ]
+    }
+   ]
+  },
+  {
+   "code": "EQP-T006",
+   "wg": "EQP",
+   "title": "Schedule haulage trucks with the production plants",
+   "description": "Weekly truck allocation to crusher and asphalt plants, from the plant shift plan.",
+   "dir": "EQP-D06",
+   "ws": "Implementation",
+   "role": "Support",
+   "start": "2026-12-13",
+   "finish": "2027-03-11",
+   "status": "ready",
+   "sub": "AV-7-Equipment utilization",
+   "approval": null,
+   "partners": [],
+   "contributions": [
+    {
+     "to": "PRD",
+     "what": "Haulage trucks scheduled with the plants",
+     "when": "During execution",
+     "their": "PRD-T002",
+     "review": [
+      "approved",
+      "",
+      null
+     ]
+    }
+   ],
+   "acts": [
+    {
+     "name": "Agree the weekly cycle",
+     "owner": "Farhan Shariff",
+     "start": "2026-12-13",
+     "finish": "2027-01-10",
+     "after": []
+    },
+    {
+     "name": "Build the allocation sheet",
+     "owner": "Maged Ahmed Mohammed Abo El Enein",
+     "start": "2027-01-11",
+     "finish": "2027-02-08",
+     "after": [
+      1
+     ]
+    },
+    {
+     "name": "Run for one month and adjust",
+     "owner": "Tariq Ali Alayuni",
+     "start": "2027-02-09",
+     "finish": "2027-03-11",
+     "after": [
+      2
+     ]
+    }
+   ]
+  },
+  {
+   "code": "SCM-T009",
+   "wg": "SCM",
+   "title": "Contract the telematics supplier",
+   "description": "Framework contract for telematics devices, installation and airtime for five years.",
+   "dir": "SCM-D09",
+   "ws": "Implementation",
+   "role": "Enable",
+   "start": "2026-11-22",
+   "finish": "2027-01-28",
+   "status": "ready",
+   "sub": "WB-4-SCM(MATERRIAL-SUBCONTRACTING )",
+   "approval": null,
+   "partners": [],
+   "contributions": [
+    {
+     "to": "EQP",
+     "what": "Supplier contract for devices and airtime",
+     "when": "Before start",
+     "their": "EQP-T004",
+     "review": [
+      "approved",
+      "",
+      null
+     ]
+    }
+   ],
+   "acts": [
+    {
+     "name": "Issue the request for proposal",
+     "owner": "Mohammed AbdulAziz Al Hudaithi",
+     "start": "2026-11-22",
+     "finish": "2026-12-13",
+     "after": []
+    },
+    {
+     "name": "Evaluate the offers",
+     "owner": "Magdy Radwan",
+     "start": "2026-12-14",
+     "finish": "2027-01-04",
+     "after": [
+      1
+     ]
+    },
+    {
+     "name": "Negotiate and sign",
+     "owner": "Mohammed Ibrahem Elzughby",
+     "start": "2027-01-05",
+     "finish": "2027-01-28",
+     "after": [
+      2
+     ]
+    }
+   ]
+  },
+  {
+   "code": "SS-T011",
+   "wg": "SS",
+   "title": "Charge support services by service",
+   "description": "Monthly charge-back of facilities, transport and housing to projects, by service catalogue.",
+   "dir": "SS-D01",
+   "ws": "Business Plan Execution",
+   "role": "Direct",
+   "start": "2027-02-07",
+   "finish": "2027-08-12",
+   "status": "draft",
+   "sub": "WB-1-Support Services Structuer Enhancment",
+   "approval": [
+    "rejected",
+    "The service catalogue is not approved yet; resubmit once HR-T027 is done."
+   ],
+   "partners": [
+    {
+     "group": "FIN",
+     "role": "Support",
+     "need": "Charge-back accounts in the ledger",
+     "when": "Before start",
+     "their": "",
+     "review": null
+    }
+   ],
+   "contributions": [],
+   "acts": [
+    {
+     "name": "Cost each service",
+     "owner": "Ibrahim Mohammed Alhebaishi",
+     "start": "2027-02-07",
+     "finish": "2027-04-09",
+     "after": []
+    },
+    {
+     "name": "Agree the charge rules",
+     "owner": "Salah Sobhy Salah Mohamed",
+     "start": "2027-04-10",
+     "finish": "2027-06-10",
+     "after": [
+      1
+     ]
+    },
+    {
+     "name": "Charge the first month",
+     "owner": "Mahmoud Mohamed Talaat",
+     "start": "2027-06-11",
+     "finish": "2027-08-12",
+     "after": [
+      2
+     ]
+    }
+   ]
+  },
+  {
+   "code": "BC-T002",
+   "wg": "BC",
+   "title": "Feed tender estimates from Engineering quantity take-off",
+   "description": "Tender quantities come from Engineering BIM take-off instead of manual counts.",
+   "dir": "BC-D02",
+   "ws": "Implementation",
+   "role": "Direct",
+   "start": "2027-01-17",
+   "finish": "2027-05-06",
+   "status": "ready",
+   "sub": null,
+   "approval": [
+    "pending",
+    ""
+   ],
+   "partners": [
+    {
+     "group": "ENG",
+     "role": "Support",
+     "need": "Quantity take-off from BIM for each tender",
+     "when": "During execution",
+     "their": "ENG-T009",
+     "review": null
+    }
+   ],
+   "contributions": [],
+   "acts": [
+    {
+     "name": "Agree the take-off format",
+     "owner": "Amir Tarabah",
+     "start": "2027-01-17",
+     "finish": "2027-02-21",
+     "after": []
+    },
+    {
+     "name": "Run on two tenders",
+     "owner": "Oussama Zitouni",
+     "start": "2027-02-22",
+     "finish": "2027-03-29",
+     "after": [
+      1
+     ]
+    },
+    {
+     "name": "Compare with manual estimates",
+     "owner": "Ahmed Ezzeldin",
+     "start": "2027-03-30",
+     "finish": "2027-05-06",
+     "after": [
+      2
+     ]
+    }
+   ]
+  },
+  {
+   "code": "HR-T026",
+   "wg": "HR",
+   "title": "Approve the Project Controls positions",
+   "description": "Positions, grades and onshore / offshore split for the central Project Controls team.",
+   "dir": "HR-D02",
+   "ws": "Blueprint Detailing (L4/L5)",
+   "role": "Support",
+   "start": "2027-01-17",
+   "finish": "2027-03-04",
+   "status": "draft",
+   "sub": "WB-3-Manpower Utilization",
+   "approval": null,
+   "partners": [],
+   "contributions": [
+    {
+     "to": "PM",
+     "what": "Approved positions for Project Controls",
+     "when": "Before start",
+     "their": "PM-T006",
+     "review": null
+    }
+   ],
+   "acts": [
+    {
+     "name": "Review the proposed structure",
+     "owner": "Thamer Filimban",
+     "start": "2027-01-17",
+     "finish": "2027-01-31",
+     "after": []
+    },
+    {
+     "name": "Grade the positions",
+     "owner": "Amer Abduh",
+     "start": "2027-02-01",
+     "finish": "2027-02-15",
+     "after": [
+      1
+     ]
+    },
+    {
+     "name": "Approve with the CEO office",
+     "owner": "Bilal Nabil Malass",
+     "start": "2027-02-16",
+     "finish": "2027-03-04",
+     "after": [
+      2
+     ]
+    }
+   ]
+  },
+  {
+   "code": "HR-T027",
+   "wg": "HR",
+   "title": "Link job families to the service catalogue",
+   "description": "Each support service names the job families that deliver it, for charge-back and staffing.",
+   "dir": "HR-D02",
+   "ws": "Blueprint Detailing (L4/L5)",
+   "role": "Enable",
+   "start": "2026-12-06",
+   "finish": "2027-02-25",
+   "status": "needs_completion",
+   "sub": "WB-10-Service Catalog Linkage",
+   "approval": null,
+   "partners": [],
+   "contributions": [
+    {
+     "to": "SS",
+     "what": "Service catalogue linked to job families",
+     "when": "Before start",
+     "their": "SS-T011",
+     "review": null
+    }
+   ],
+   "acts": [
+    {
+     "name": "List services and job families",
+     "owner": "Thamer Filimban",
+     "start": "2026-12-06",
+     "finish": "2027-01-01",
+     "after": []
+    },
+    {
+     "name": "Link them",
+     "owner": "Amer Abduh",
+     "start": "2027-01-02",
+     "finish": "2027-01-28",
+     "after": [
+      1
+     ]
+    },
+    {
+     "name": "Review with Support Services",
+     "owner": "Bilal Nabil Malass",
+     "start": "2027-01-29",
+     "finish": "2027-02-25",
+     "after": [
+      2
+     ]
+    }
+   ]
+  },
+  {
+   "code": "ICT-T050",
+   "wg": "ICT",
+   "title": "Build the employee self-service workflows",
+   "description": "Leave, salary certificate and letter workflows on Tekwin, with the HR authority matrix.",
+   "dir": "ICT-D03",
+   "ws": "Digitization & Automation",
+   "role": "Enable",
+   "start": "2027-02-07",
+   "finish": "2027-05-27",
+   "status": "ready",
+   "sub": "WB-15-Digitalization of Related Sub-objectives",
+   "approval": null,
+   "partners": [
+    {
+     "group": "HR",
+     "role": "Support",
+     "need": "Approved leave and letter policies with the authority matrix",
+     "when": "Before start",
+     "their": "HR-T024",
+     "review": null
+    }
+   ],
+   "contributions": [
+    {
+     "to": "HR",
+     "what": "Self-service workflows on Tekwin",
+     "when": "Before start",
+     "their": "HR-T024",
+     "review": null
+    }
+   ],
+   "acts": [
+    {
+     "name": "Design the workflows",
+     "owner": "Essam Essmat",
+     "start": "2027-02-07",
+     "finish": "2027-03-05",
+     "after": []
+    },
+    {
+     "name": "Build on Tekwin",
+     "owner": "Azeem Hussain",
+     "start": "2027-03-06",
+     "finish": "2027-04-01",
+     "after": [
+      1
+     ]
+    },
+    {
+     "name": "Test with HR",
+     "owner": "Amr Gomaa",
+     "start": "2027-04-02",
+     "finish": "2027-04-28",
+     "after": [
+      2
+     ]
+    },
+    {
+     "name": "Release",
+     "owner": "Sakeel Ahamed",
+     "start": "2027-04-29",
+     "finish": "2027-05-27",
+     "after": [
+      3
+     ]
+    }
+   ]
+  },
+  {
+   "code": "ICT-T051",
+   "wg": "ICT",
+   "title": "Set up the Unifier environments and Oracle integration",
+   "description": "Production and test environments for the planning platform, integrated with Oracle projects and cost.",
+   "dir": "ICT-D02",
+   "ws": "Implementation",
+   "role": "Enable",
+   "start": "2026-12-20",
+   "finish": "2027-04-15",
+   "status": "in_master_plan",
+   "sub": "WB-15-Digitalization of Related Sub-objectives",
+   "approval": null,
+   "partners": [],
+   "contributions": [
+    {
+     "to": "PM",
+     "what": "Unifier environments and integration with Oracle",
+     "when": "Before start",
+     "their": "PM-T003",
+     "review": null
+    }
+   ],
+   "acts": [
+    {
+     "name": "Size the environments",
+     "owner": "Essam Essmat",
+     "start": "2026-12-20",
+     "finish": "2027-01-17",
+     "after": []
+    },
+    {
+     "name": "Install and configure",
+     "owner": "Azeem Hussain",
+     "start": "2027-01-18",
+     "finish": "2027-02-15",
+     "after": [
+      1
+     ]
+    },
+    {
+     "name": "Build the Oracle integration",
+     "owner": "Amr Gomaa",
+     "start": "2027-02-16",
+     "finish": "2027-03-16",
+     "after": [
+      2
+     ]
+    },
+    {
+     "name": "Hand over to PM",
+     "owner": "Sakeel Ahamed",
+     "start": "2027-03-17",
+     "finish": "2027-04-15",
+     "after": [
+      3
+     ]
+    }
+   ]
+  },
+  {
+   "code": "ICT-T052",
+   "wg": "ICT",
+   "title": "Set data owners for each master data domain",
+   "description": "Named owners and rules for cost, supplier, employee and asset master data across Oracle and Tekwin.",
+   "dir": "ICT-D05",
+   "ws": "Blueprint Detailing (L4/L5)",
+   "role": "Direct",
+   "start": "2027-01-10",
+   "finish": "2027-04-29",
+   "status": "ready",
+   "sub": "WB-15-Digitalization of Related Sub-objectives",
+   "approval": [
+    "approved",
+    ""
+   ],
+   "partners": [
+    {
+     "group": "FIN",
+     "role": "Support",
+     "need": "Owner and rules for cost master data",
+     "when": "Before start",
+     "their": "FIN-T015",
+     "review": null
+    },
+    {
+     "group": "SCM",
+     "role": "Support",
+     "need": "Owner and rules for supplier master data",
+     "when": "Before start",
+     "their": "SCM-T012",
+     "review": [
+      "approved",
+      "",
+      null
+     ]
+    },
+    {
+     "group": "HR",
+     "role": "Support",
+     "need": "Owner and rules for employee master data",
+     "when": "Before start",
+     "their": "HR-T030",
+     "review": [
+      "clarification",
+      "Does this include contractors and offshore staff?",
+      null
+     ]
+    }
+   ],
+   "contributions": [],
+   "acts": [
+    {
+     "name": "List the master data domains",
+     "owner": "Essam Essmat",
+     "start": "2027-01-10",
+     "finish": "2027-02-05",
+     "after": []
+    },
+    {
+     "name": "Nominate owners",
+     "owner": "Azeem Hussain",
+     "start": "2027-02-06",
+     "finish": "2027-03-04",
+     "after": [
+      1
+     ]
+    },
+    {
+     "name": "Agree the data rules",
+     "owner": "Amr Gomaa",
+     "start": "2027-03-05",
+     "finish": "2027-03-31",
+     "after": [
+      2
+     ]
+    },
+    {
+     "name": "Publish the data governance memo",
+     "owner": "Sakeel Ahamed",
+     "start": "2027-04-01",
+     "finish": "2027-04-29",
+     "after": [
+      3
+     ]
+    }
+   ]
+  },
+  {
+   "code": "ICT-T053",
+   "wg": "ICT",
+   "title": "Build the equipment telematics data platform",
+   "description": "Collect telematics data and link it to Oracle fixed assets for utilization and fuel reports.",
+   "dir": "ICT-D07",
+   "ws": "Digitization & Automation",
+   "role": "Enable",
+   "start": "2027-02-14",
+   "finish": "2027-06-24",
+   "status": "ready",
+   "sub": "WB-13- AI Invention Points, AI Agent Types, AI Inputs and Outputs",
+   "approval": null,
+   "partners": [
+    {
+     "group": "EQP",
+     "role": "Support",
+     "need": "Clean asset register for the heavy fleet",
+     "when": "Before start",
+     "their": "EQP-T008",
+     "review": null
+    }
+   ],
+   "contributions": [
+    {
+     "to": "EQP",
+     "what": "Telematics data platform and integration with Oracle assets",
+     "when": "Before start",
+     "their": "EQP-T004",
+     "review": null
+    }
+   ],
+   "acts": [
+    {
+     "name": "Choose the data platform",
+     "owner": "Essam Essmat",
+     "start": "2027-02-14",
+     "finish": "2027-03-17",
+     "after": []
+    },
+    {
+     "name": "Build the device interface",
+     "owner": "Azeem Hussain",
+     "start": "2027-03-18",
+     "finish": "2027-04-18",
+     "after": [
+      1
+     ]
+    },
+    {
+     "name": "Link to Oracle assets",
+     "owner": "Amr Gomaa",
+     "start": "2027-04-19",
+     "finish": "2027-05-20",
+     "after": [
+      2
+     ]
+    },
+    {
+     "name": "Publish the first reports",
+     "owner": "Sakeel Ahamed",
+     "start": "2027-05-21",
+     "finish": "2027-06-24",
+     "after": [
+      3
+     ]
+    }
+   ]
+  },
+  {
+   "code": "ICT-T054",
+   "wg": "ICT",
+   "title": "Host the BIM servers with backup",
+   "description": "BIM collaboration servers in the data centre with nightly backup and offshore access.",
+   "dir": "ICT-D06",
+   "ws": "Implementation",
+   "role": "Support",
+   "start": "2026-12-13",
+   "finish": "2027-02-25",
+   "status": "ready",
+   "sub": "WB-15-Digitalization of Related Sub-objectives",
+   "approval": null,
+   "partners": [],
+   "contributions": [
+    {
+     "to": "ENG",
+     "what": "BIM server hosting and backup",
+     "when": "Before start",
+     "their": "ENG-T009",
+     "review": [
+      "approved",
+      "",
+      null
+     ]
+    }
+   ],
+   "acts": [
+    {
+     "name": "Size the servers",
+     "owner": "Essam Essmat",
+     "start": "2026-12-13",
+     "finish": "2026-12-30",
+     "after": []
+    },
+    {
+     "name": "Install and secure",
+     "owner": "Azeem Hussain",
+     "start": "2026-12-31",
+     "finish": "2027-01-17",
+     "after": [
+      1
+     ]
+    },
+    {
+     "name": "Set up backup",
+     "owner": "Amr Gomaa",
+     "start": "2027-01-18",
+     "finish": "2027-02-04",
+     "after": [
+      2
+     ]
+    },
+    {
+     "name": "Open offshore access",
+     "owner": "Sakeel Ahamed",
+     "start": "2027-02-05",
+     "finish": "2027-02-25",
+     "after": [
+      3
+     ]
+    }
+   ]
+  },
+  {
+   "code": "ICT-T055",
+   "wg": "ICT",
+   "title": "Run a cybersecurity awareness programme",
+   "description": "Mandatory awareness training and quarterly phishing tests for every employee.",
+   "dir": "ICT-D06",
+   "ws": "Implementation",
+   "role": "Direct",
+   "start": "2027-01-03",
+   "finish": "2027-12-16",
+   "status": "ready",
+   "sub": "WB-15-Digitalization of Related Sub-objectives",
+   "approval": [
+    "approved",
+    ""
+   ],
+   "partners": [
+    {
+     "group": "HR",
+     "role": "Support",
+     "need": "Training made part of onboarding and yearly objectives",
+     "when": "Before start",
+     "their": "HR-T031",
+     "review": [
+      "timeline",
+      "We can add it to onboarding from the April intake.",
+      "2027-04-01"
+     ]
+    }
+   ],
+   "contributions": [],
+   "acts": [
+    {
+     "name": "Choose the training platform",
+     "owner": "Essam Essmat",
+     "start": "2027-01-03",
+     "finish": "2027-03-30",
+     "after": []
+    },
+    {
+     "name": "Launch the first campaign",
+     "owner": "Azeem Hussain",
+     "start": "2027-03-31",
+     "finish": "2027-06-25",
+     "after": [
+      1
+     ]
+    },
+    {
+     "name": "Run quarterly phishing tests",
+     "owner": "Amr Gomaa",
+     "start": "2027-06-26",
+     "finish": "2027-09-20",
+     "after": [
+      2
+     ]
+    },
+    {
+     "name": "Report results to leadership",
+     "owner": "Sakeel Ahamed",
+     "start": "2027-09-21",
+     "finish": "2027-12-16",
+     "after": [
+      3
+     ]
+    }
+   ]
+  },
+  {
+   "code": "ICT-T056",
+   "wg": "ICT",
+   "title": "Build a disaster recovery site for Oracle and Tekwin",
+   "description": "Recovery within 4 hours for Oracle and Tekwin from a second data centre.",
+   "dir": "ICT-D06",
+   "ws": "Implementation",
+   "role": "Direct",
+   "start": "2027-03-07",
+   "finish": "2027-10-28",
+   "status": "needs_completion",
+   "sub": "WB-15-Digitalization of Related Sub-objectives",
+   "approval": [
+    "pending",
+    ""
+   ],
+   "partners": [
+    {
+     "group": "FIN",
+     "role": "Support",
+     "need": "Budget approved for the recovery site",
+     "when": "Before start",
+     "their": "",
+     "review": [
+      "rejected",
+      "Not in the 2027 budget. Resubmit with a phased cost for 2027 and 2028.",
+      null
+     ]
+    },
+    {
+     "group": "SS",
+     "role": "Support",
+     "need": "Space and power at the second site",
+     "when": "Before start",
+     "their": "",
+     "review": null
+    }
+   ],
+   "contributions": [],
+   "acts": [
+    {
+     "name": "Choose the recovery site",
+     "owner": "Essam Essmat",
+     "start": "2027-03-07",
+     "finish": "2027-05-04",
+     "after": []
+    },
+    {
+     "name": "Design the recovery architecture",
+     "owner": "Azeem Hussain",
+     "start": "2027-05-05",
+     "finish": "2027-07-02",
+     "after": [
+      1
+     ]
+    },
+    {
+     "name": "Build and replicate",
+     "owner": "Amr Gomaa",
+     "start": "2027-07-03",
+     "finish": "2027-08-30",
+     "after": [
+      2
+     ]
+    },
+    {
+     "name": "Run the recovery test",
+     "owner": "Sakeel Ahamed",
+     "start": "2027-08-31",
+     "finish": "2027-10-28",
+     "after": [
+      3
+     ]
+    }
+   ]
+  }
+ ]
+}

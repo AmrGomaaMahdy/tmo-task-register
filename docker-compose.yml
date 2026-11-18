@@ -1,0 +1,88 @@
+# Task Register: database, Django API and the React app behind nginx.
+#   cp .env.example .env   # then set the secrets
+#   docker compose up --build
+#   open http://localhost:8080
+name: task-register
+
+services:
+  db:
+    image: postgres:16-alpine
+    restart: unless-stopped
+    environment:
+      POSTGRES_DB: ${DB_NAME:-task_register}
+      POSTGRES_USER: ${DB_USER:-task_register}
+      POSTGRES_PASSWORD: ${DB_PASSWORD:?Set DB_PASSWORD in .env}
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U $${POSTGRES_USER} -d $${POSTGRES_DB}"]
+      interval: 5s
+      timeout: 5s
+      retries: 10
+    networks: [internal]
+
+  backend:
+    build: ./backend
+    image: ${IMAGE_PREFIX:-task-register}-backend:${IMAGE_TAG:-local}
+    restart: unless-stopped
+    depends_on:
+      db:
+        condition: service_healthy
+    environment:
+      # Separate variables: the password is passed exactly as written in .env (no URL-encoding needed)
+      DB_HOST: db
+      DB_PORT: "5432"
+      DB_NAME: ${DB_NAME:-task_register}
+      DB_USER: ${DB_USER:-task_register}
+      DB_PASSWORD: ${DB_PASSWORD:?Set DB_PASSWORD in .env}
+      DJANGO_SECRET_KEY: ${DJANGO_SECRET_KEY:?Set DJANGO_SECRET_KEY in .env}
+      DJANGO_DEBUG: "false"
+      DJANGO_ALLOWED_HOSTS: ${DJANGO_ALLOWED_HOSTS:-localhost,127.0.0.1}
+      DJANGO_CSRF_TRUSTED_ORIGINS: ${DJANGO_CSRF_TRUSTED_ORIGINS:-http://localhost:8080}
+      DJANGO_SECURE_COOKIES: ${DJANGO_SECURE_COOKIES:-false}
+      DJANGO_SECURE_SSL_REDIRECT: ${DJANGO_SECURE_SSL_REDIRECT:-false}
+      DJANGO_HSTS_SECONDS: ${DJANGO_HSTS_SECONDS:-0}
+      DJANGO_LOG_LEVEL: ${DJANGO_LOG_LEVEL:-INFO}
+      # The nginx web container is the one trusted proxy in front of the API (see .env.example).
+      DJANGO_NUM_PROXIES: ${DJANGO_NUM_PROXIES:-1}
+      LOGIN_LOCKOUT_ATTEMPTS: ${LOGIN_LOCKOUT_ATTEMPTS:-5}
+      LOGIN_LOCKOUT_MINUTES: ${LOGIN_LOCKOUT_MINUTES:-15}
+      SESSION_IDLE_MINUTES: ${SESSION_IDLE_MINUTES:-60}
+      SESSION_ABSOLUTE_HOURS: ${SESSION_ABSOLUTE_HOURS:-10}
+      API_DOCS_ENABLED: ${API_DOCS_ENABLED:-true}
+      SYSTEM_EVENT_RETENTION_DAYS: ${SYSTEM_EVENT_RETENTION_DAYS:-90}
+      # The 13 work groups, directions, sub-objectives, members and their accounts (missing records only).
+      LOAD_INITIAL_DATA: ${LOAD_INITIAL_DATA:-true}
+      INITIAL_USER_PASSWORD: ${INITIAL_USER_PASSWORD:-}
+      SEED_DEMO: ${SEED_DEMO:-true}
+      DEMO_USER_PASSWORD: ${DEMO_USER_PASSWORD:-}
+      OIDC_ENABLED: ${OIDC_ENABLED:-false}
+      OIDC_TENANT_ID: ${OIDC_TENANT_ID:-}
+      OIDC_CLIENT_ID: ${OIDC_CLIENT_ID:-}
+      OIDC_CLIENT_SECRET: ${OIDC_CLIENT_SECRET:-}
+    read_only: true
+    tmpfs: [/tmp]
+    security_opt: ["no-new-privileges:true"]
+    cap_drop: [ALL]
+    networks: [internal]
+
+  frontend:
+    build: ./frontend
+    image: ${IMAGE_PREFIX:-task-register}-frontend:${IMAGE_TAG:-local}
+    restart: unless-stopped
+    depends_on:
+      backend:
+        condition: service_healthy
+    ports:
+      - "${APP_PORT:-8080}:8080"
+    read_only: true
+    tmpfs: [/tmp]
+    security_opt: ["no-new-privileges:true"]
+    cap_drop: [ALL]
+    networks: [internal]
+
+volumes:
+  pgdata:
+
+networks:
+  internal:

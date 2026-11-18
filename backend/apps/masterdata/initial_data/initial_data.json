@@ -1,0 +1,1132 @@
+{
+ "source": [
+  "Directions_from_Leadership_Group-Wise_v4.pptx (missions, weightage, directions)",
+  "13_Groups_Subobjectives.ods (sub-objectives by group)",
+  "Task_Register_Group_Focal_Points.xlsx, sheet Final (members, Leader / Coordinator; green = focal point)"
+ ],
+ "groups": [
+  {
+   "code": "PM",
+   "name": "Project Management",
+   "mission": "Strengthen Infrastructure Project Management and project integration through owned planning, professional Project Controls, stage gates, repeatable procedures and effective offshore support.",
+   "weight": 15,
+   "directions": [
+    {
+     "no": 1,
+     "title": "Establish clear ownership of planning for the Infrastructure Unit",
+     "meaning": "Define planning ownership across the unit and build the capability to produce high-quality plans that serve tendering, procurement, construction, and finance."
+    },
+    {
+     "no": 2,
+     "title": "Standardize and simplify planning",
+     "meaning": "Develop standard planning processes and use the company's tools consistently, based on the project and procurement breakdown structures. The aim is to make plans clear, consistent, and useful across departments and projects."
+    },
+    {
+     "no": 3,
+     "title": "Raise planning capability and tool adoption",
+     "meaning": "Clarify the standards, processes, and roles so that employees responsible for planning understand and use the approved planning tools effectively."
+    },
+    {
+     "no": 4,
+     "title": "Prepare planning to support cost control",
+     "meaning": "Mature planning practices and data to provide a reliable foundation for introducing cost control and improving performance monitoring and decision-making."
+    },
+    {
+     "no": 5,
+     "title": "Build and activate a centralized Project Controls capability",
+     "meaning": "Establish a professionally managed Project Controls capability within the approved Project Management model, serving Tendering, Engineering, Procurement, Construction and Finance. Define functional and administrative reporting, accountability for the integrity of planning, progress, cost and forecasts, and protected escalation for material professional disagreements or data issues. Implement early-warning thresholds for schedule, cost, progress and cash exposure, with assigned corrective actions and recovery plans before variances become critical. Use offshore support for standard planning, analysis and reporting while retaining professional accountability and decision ownership. Detail roles and interfaces in the Blueprint."
+    },
+    {
+     "no": 6,
+     "title": "Implement and operationalize the approved project structure and procedures",
+     "meaning": "Apply the approved project structure and related procedures across Infrastructure Project Management, with clear roles, decision rights, interfaces, and handoffs between teams and supporting functions. Ensure the structure and procedures work together as an integrated operating model that simplifies coordination and execution, improves efficiency, and strengthens accountability through clearly assigned ownership. Support implementation through standard tools, capability rotation, and effective use of offshore resources."
+    },
+    {
+     "no": 7,
+     "title": "Mature the application of the Stage-Gate Model",
+     "meaning": "Embed the model through clear procedures, integration with planning, and defined responsibilities for the parties involved in reviews and decisions at each stage."
+    },
+    {
+     "no": 8,
+     "title": "Develop a repeatable project management model enabled by Unifier",
+     "meaning": "Define how Unifier will support project management procedures, planning, and coordination across departments, enabling a standardized model that can be repeated and delivered remotely."
+    },
+    {
+     "no": 9,
+     "title": "Use offshore resources effectively",
+     "meaning": "Define the management and project support activities to be delivered offshore and build an operating model that improves efficiency through clear processes, standards, and tools—not simply through increased hiring."
+    },
+    {
+     "no": 10,
+     "title": "Integrate Corporate Support sub-functions into project delivery",
+     "meaning": "Improve the use and efficiency of Corporate Support functions - particularly HR, Finance, and Procurement - by embedding their services, procedures and interfaces into project delivery. Project teams shall apply the relevant approved functional procedures, with clear service responsibilities, decision rights and escalation paths defined in the Blueprint. Operational integration does not automatically transfer the organizational or professional reporting lines of these functions to Project Management."
+    }
+   ],
+   "subobjectives": [
+    "WB-8-Educational project Makkah",
+    "AO-1-Diriyah -project",
+    "AO-2-Sliz Project",
+    "AO-3-Imam-project",
+    "AO-4-Tank-project",
+    "AO-5-second ring road",
+    "AO-6-Neom P5",
+    "AO-7-Neom P4",
+    "AO-8-Valut Project",
+    "AO-9-New project 01",
+    "AO-10-Neom pending spine closing (dispute )",
+    "AO-11-CTW320 Closing",
+    "AO-12-Trojina project",
+    "AO-13-Road Neom project",
+    "AO-14-Amala project",
+    "AO-15-Stage Gate Model",
+    "AO-16-Spin-Off Infrastructure",
+    "AO-17-New project 02",
+    "AO-18-New project 03",
+    "AO-19-New project 04"
+   ],
+   "members": [
+    {
+     "name": "Abdullah Al Othman",
+     "type": "leader",
+     "focal_point": false
+    },
+    {
+     "name": "Ayman Elghamrawi",
+     "type": "member",
+     "focal_point": false
+    },
+    {
+     "name": "Azzam Hamad Alayuni",
+     "type": "member",
+     "focal_point": false
+    },
+    {
+     "name": "Uduman Thangal",
+     "type": "member",
+     "focal_point": true
+    },
+    {
+     "name": "Islam Hamed",
+     "type": "member",
+     "focal_point": false
+    },
+    {
+     "name": "Hossam Ahmed Abdel Maneam",
+     "type": "member",
+     "focal_point": false
+    }
+   ]
+  },
+  {
+   "code": "CM",
+   "name": "Construction Management",
+   "mission": "Build a disciplined Construction Platform with measurable Cell-based execution, stronger supervisors, specialist capabilities, advanced work packaging and cost/productivity benchmarks.",
+   "weight": 15,
+   "directions": [
+    {
+     "no": 1,
+     "title": "Structure Construction around small, clearly defined execution units",
+     "meaning": "linked to identifiable work teams whose performance can be measured and controlled at Group level. This includes controlling the scope of work, monitoring it daily, and conducting midweek and weekly close-outs to identify and address deviations in efficiency, cost, or performance early."
+    },
+    {
+     "no": 2,
+     "title": "Enable each project to manage its day-to-day work and proceed in line with approved plans and procedures",
+     "meaning": "with Construction Management intervention limited to the circumstances and reasons agreed in the Mandate. This allows Construction Management to focus on longer-term planning, efficiency, performance improvement, higher-level planning, and integration with projects."
+    },
+    {
+     "no": 3,
+     "title": "Use the company-wide planning platform owned by Project Management",
+     "meaning": "Construction planning should use the integrated company-wide planning platform, provide the necessary execution-level detail and connect with the approved project schedule. Construction Management remains responsible for the technical credibility of execution sequences, work methods, resource needs and productivity assumptions that inform the integrated plan."
+    },
+    {
+     "no": 4,
+     "title": "Empower, develop, and advance team leaders (supervisors) through a clear career path,",
+     "meaning": "as a key part of the company's direction. This requires a more agile structure with fewer management layers between supervisors and management, giving supervisors a stronger role in leading their teams. This should reduce cost and bureaucracy and make management more effective. It should also include a fair team bonus system that helps reduce reliance on overtime, linking rewards to verified productivity, cost, quality and safety outcomes while preserving base pay, proper time records and applicable employee protections."
+    },
+    {
+     "no": 5,
+     "title": "Build Construction around specialized execution capabilities and organize them within an integrated Construction platform",
+     "meaning": "that connects them with other capabilities and Project Management. Develop these capabilities by improving efficiency through execution planning and preparation of Advanced Work Packages, integration across capabilities and with Project Management, training, more efficient execution methods, and the use of available market tools that improve performance."
+    },
+    {
+     "no": 6,
+     "title": "Establish Infrastructure VBOQ as the common work language",
+     "meaning": "The Infrastructure VBOQ should be kept in the company library and managed as the common integrated work language for Procurement, Engineering, Project Management, Finance, and Construction, reflecting actual methods, standard costs, history, and benchmarks across teams, projects, and time."
+    },
+    {
+     "no": 7,
+     "title": "Operationalize the Construction Management operating model defined in the Blueprint",
+     "meaning": "by converting approved procedures into live procedures that are implemented and run through the Tekwin Construction platform. Procedures should be designed and applied consistently across all capabilities, so that improvements to any capability are reflected in the platform and additional capabilities can be incorporated easily."
+    },
+    {
+     "no": 8,
+     "title": "Measure each execution capability against three benchmarks:",
+     "meaning": "Subcontractor alternative: Aim to outperform subcontracting through efficient self-performance, comparing the full risk-adjusted cost and value of each option, including schedule, quality, capacity and delivery risk, rather than requiring self-performance to be cheaper in every case. Planned cost: Plan costs in advance, control actual cost against approved limits and continuously improve execution efficiency. Historical company performance: Measure results against comparable historical performance so sustained improvements become increasingly demanding internal benchmarks."
+    },
+    {
+     "no": 9,
+     "title": "Integrate Support Functions with Construction so they serve its needs effectively.",
+     "meaning": "Procurement procedures should support advance work preparation and the selection of more efficient materials, with standardized procedures that are effective and suited to business needs. HR should work with Construction Management to train and motivate technicians and develop clear career paths for them, supporting the needs and effectiveness of the sector."
+    },
+    {
+     "no": 10,
+     "title": "Verify readiness of every workfront before execution",
+     "meaning": "Release each Cell/Segment workfront only after verifying approved drawings, access, preceding works, permits, materials, crews, equipment and critical safety controls. Record and close constraints with Project Management, Engineering and Supply Chain before execution starts, under approved authority."
+    },
+    {
+     "no": 11,
+     "title": "Use offshore resources for construction control and back-office work.",
+     "meaning": "Perform planning, cost control, and administrative support (construction control, data validation, maintaining libraries, develop and maintain method statements, SOPs and system administration) from the offshore office."
+    },
+    {
+     "no": 12,
+     "title": "Develop and operationalize a team incentive model for Construction.",
+     "meaning": "Mature the incentive model already tested in the company into a standard win-win model that lets construction teams operate as small, empowered units. Shift reliance from overtime to team incentives earned only on achieving agreed and verified targets (productivity, cost, quality and safety), while protecting base salaries. Link the model to the relevant Sub-Job Families and Sub-Functions, and build team cohesion and efficiency through training, capability development and new tools. Targets, measurement and incentive calculation will run through TekWin."
+    }
+   ],
+   "subobjectives": [
+    "AV-12-Cell Station",
+    "AV-13-Virtual BOQ ↔ Cost Structure, Cells Linkage, Activity Linkage",
+    "AV-14-Construction Management"
+   ],
+   "members": [
+    {
+     "name": "Abdullah Al Othman",
+     "type": "leader",
+     "focal_point": false
+    },
+    {
+     "name": "Mohamed Farhan Abuseif",
+     "type": "member",
+     "focal_point": false
+    },
+    {
+     "name": "Rajab Abdulghani",
+     "type": "member",
+     "focal_point": false
+    },
+    {
+     "name": "Kareem Kanampuram",
+     "type": "member",
+     "focal_point": false
+    },
+    {
+     "name": "Abid Hussain",
+     "type": "member",
+     "focal_point": false
+    },
+    {
+     "name": "Mohammed Abdul Moneem",
+     "type": "member",
+     "focal_point": true
+    },
+    {
+     "name": "Labeeb Azhikkalayil",
+     "type": "member",
+     "focal_point": false
+    }
+   ]
+  },
+  {
+   "code": "EQP",
+   "name": "Equipment",
+   "mission": "Build Equipment as an efficient standalone business, with higher availability, mature rental services, equipment-family expertise and digitally informed performance.",
+   "weight": 9,
+   "directions": [
+    {
+     "no": 1,
+     "title": "Understand and implement the strategic direction for Equipment",
+     "meaning": "Focus on improving equipment availability and operational efficiency through effective scheduled and preventive maintenance."
+    },
+    {
+     "no": 2,
+     "title": "Develop equipment rental as a standalone business",
+     "meaning": "Build a mature equipment rental business, drawing on established international practices and pursuing the opportunity to become a leading standalone provider in the Saudi market. Stage expansion from reliable service to the Group's projects toward a competitive external offering based on validated market demand, commercial capability, collection risk, utilization and return on invested capital."
+    },
+    {
+     "no": 3,
+     "title": "Use digitalization, telematics, and AI to improve performance",
+     "meaning": "Apply digital tools, telematics, and AI to strengthen equipment monitoring and efficiency. Track fuel, oils, tires, utilization, and other operating data to support better decisions, including future external rental opportunities."
+    },
+    {
+     "no": 4,
+     "title": "Build the Equipment Family model",
+     "meaning": "Organize expertise around equipment types to improve the performance of each category, build cumulative knowledge, and develop operators and technicians through focused training. Establish cost and efficiency benchmarks by equipment type."
+    },
+    {
+     "no": 5,
+     "title": "Integrate Equipment with Cell Station",
+     "meaning": "Connect equipment planning and deployment with Cell Station to improve operating efficiency and support the potential to offer an “Apply and Supply” service model in the future. Evaluate the commercial and operational model, performance obligations, contracting risks and required capabilities before introducing such services externally."
+    },
+    {
+     "no": 6,
+     "title": "Integrate advance planning with the Infrastructure Unit",
+     "meaning": "Coordinate equipment planning in advance with the Infrastructure Unit to strengthen planning with Construction and improve equipment readiness for project needs."
+    },
+    {
+     "no": 7,
+     "title": "Establish equipment cost, rental, productivity and capital-return benchmarks",
+     "meaning": "Build reliable benchmarks for equipment costs, rental rates, market prices, operating efficiency, availability, utilization and productivity by equipment type. Include lifecycle economics and return on invested capital to support disciplined fleet investment and external rental decisions."
+    },
+    {
+     "no": 8,
+     "title": "Operationalize the Equipment business model and Blueprint",
+     "meaning": "Implement the approved model and Blueprint through the planned Equipment platform. Enable effective interaction through the platform with operators and supervisors, and use offshore resources to operate the company's control center and improve efficiency."
+    },
+    {
+     "no": 9,
+     "title": "Strengthen fuel management and logistics as critical operating enablers",
+     "meaning": "Fuel supply and monitoring system. Establish fuel supply as a controlled operation, from receipt to consumption, through defined storage, issue, dispensing, recording and reconciliation. Check consumption against telematics operating hours so that variances are identified early and every litre is accounted for. Build detailed fuel consumption data by equipment family, model and unit, so that equipment consuming above its family benchmark is identified quickly and corrective action is taken, whether on the machine, the operator or the operating pattern.\nEquipment logistics as a dedicated operation. Run equipment logistics as a focused, separate operation that directly supports availability, utilization and operating cost. Plan transport, lowbed movements and mobilization in advance against project demand and the Infrastructure Unit’s plans, with clear service levels, transport utilization and cost per movement. Integration with digitalization. Integrate fuel and logistics data into digitalization and the Equipment platform, so that fuel and logistics performance is visible alongside availability and utilization, and supports decisions for the business."
+    }
+   ],
+   "subobjectives": [
+    "AV-3-Equipment external",
+    "AV-4-Equipment internal",
+    "AV-5-Equipment family",
+    "AV-6-Disel control",
+    "AV-7-Equipment utilization",
+    "AV-8-Maintenance -Equipment",
+    "AV-9-Inefficient assets",
+    "AV-11-logistic efficiency",
+    "AV-15-Equipment digitalization",
+    "AV-17-Spin-Off Equipment",
+    "AK-1-Main workshop"
+   ],
+   "members": [
+    {
+     "name": "Abdul Rahman Viswa",
+     "type": "leader",
+     "focal_point": false
+    },
+    {
+     "name": "Richards Gladson",
+     "type": "coordinator",
+     "focal_point": true
+    },
+    {
+     "name": "Firas Daher",
+     "type": "member",
+     "focal_point": false
+    },
+    {
+     "name": "Farhan Shariff",
+     "type": "member",
+     "focal_point": false
+    },
+    {
+     "name": "Maged Ahmed Mohammed Abo El Enein",
+     "type": "member",
+     "focal_point": false
+    },
+    {
+     "name": "Tariq Ali Alayuni",
+     "type": "member",
+     "focal_point": false
+    },
+    {
+     "name": "Aziz Ahmad Wani",
+     "type": "member",
+     "focal_point": false
+    }
+   ]
+  },
+  {
+   "code": "PRD",
+   "name": "Production",
+   "mission": "Grow Production as an efficient independent business, optimizing existing assets while developing external customers, Riyadh production capability and a selective mini-infrastructure offering.",
+   "weight": 9,
+   "directions": [
+    {
+     "no": 1,
+     "title": "Improve production efficiency and asset utilization",
+     "meaning": "Increase production efficiency and make better use of existing assets, with Riyadh as the current geographic focus."
+    },
+    {
+     "no": 2,
+     "title": "Develop a mini-infrastructure business",
+     "meaning": "Build a company that provides infrastructure contracting services efficiently for medium and small-scale projects outside the scope of the Infrastructure Company. Define its market, competitive advantages, commercial model, required capabilities and investment economics before scaling this activity."
+    },
+    {
+     "no": 3,
+     "title": "Partner with private-sector landowners",
+     "meaning": "Pursue partnerships with private-sector landowners to develop their land through high-quality, cost-effective infrastructure works. Use efficient execution to accelerate delivery and improve investment returns, subject to an appropriate commercial model, allocation of responsibilities, risk assessment and investment approval."
+    },
+    {
+     "no": 4,
+     "title": "Adapt the Construction platform for Production",
+     "meaning": "Use and adapt the Construction operating platform to support the effective operation of the Production business."
+    },
+    {
+     "no": 5,
+     "title": "Secure suitable sites for production facilities",
+     "meaning": "Secure locations for crushers and batching plants based on customer demand, transport economics, raw-material access, infrastructure, permitting, site operating cost and production efficiency, supporting a sustainable competitive position."
+    },
+    {
+     "no": 6,
+     "title": "Build a customer base in Riyadh",
+     "meaning": "Understand the Riyadh market and develop Al Ayuni Infrastructure as an anchor customer, while building relationships with other clients, including private-sector land developers. Maintain transparent intercompany pricing, service standards, operating accountability and a measured plan for customer diversification."
+    },
+    {
+     "no": 7,
+     "title": "Complete the separation into an independent Production company",
+     "meaning": "Prepare Production to operate as an independent legal entity with its own brand name. Serve AICC BUs on an SLA basis. Approach the market with a lean cost structure."
+    },
+    {
+     "no": 8,
+     "title": "Establish production cost and productivity benchmarks",
+     "meaning": "Build reliable benchmarks by product line for unit cost, plant availability, utilization, output, market price and return on invested capital."
+    }
+   ],
+   "subobjectives": [
+    "AV-1-Production external",
+    "AV-2-Production internal",
+    "AV-10-Production unit utilization and efficiency",
+    "AV-16-Spin-Off Production",
+    "AV-18-Maintenance - Production",
+    "AK-4-Location of Crasher",
+    "AK-5-Location of Asphalt Plant"
+   ],
+   "members": [
+    {
+     "name": "Abdul Rahman Viswa",
+     "type": "leader",
+     "focal_point": false
+    },
+    {
+     "name": "Afzaal Asghar",
+     "type": "coordinator",
+     "focal_point": true
+    },
+    {
+     "name": "Amjath Khan Ali",
+     "type": "member",
+     "focal_point": false
+    },
+    {
+     "name": "Ramy Fakhry",
+     "type": "member",
+     "focal_point": false
+    },
+    {
+     "name": "Osama Elnaggar",
+     "type": "member",
+     "focal_point": false
+    },
+    {
+     "name": "Waleed Othman Alayuni",
+     "type": "member",
+     "focal_point": false
+    }
+   ]
+  },
+  {
+   "code": "SCM",
+   "name": "Supply Chain Management",
+   "mission": "Develop a cost-efficient, technically capable and well-governed Supply Chain that integrates procurement planning, strategic sourcing, contracting and fulfillment with project execution.",
+   "weight": 8,
+   "directions": [
+    {
+     "no": 1,
+     "title": "Clarify planning ownership and the Supply Chain planning role.",
+     "meaning": "Project Management owns the project planning process and the planning platform, and provides the project plan to Supply Chain. Based on that plan, Supply Chain develops the detailed procurement and supply plans using the same platform."
+    },
+    {
+     "no": 2,
+     "title": "Use the VBOQ effectively and integrate it with the materials cycle.",
+     "meaning": "Apply the Supply Chain operating model as an effective support to the core business, in line with the Blueprint and through the digitization of its procedures. Integrate the model with Tekwin and Unifier to improve Supply Chain effectiveness."
+    },
+    {
+     "no": 3,
+     "title": "Clarify the distinction between strategic and operational work.",
+     "meaning": "Strategic work focuses on development and planning, while operational work focuses on applying procedures effectively through simple, standardized processes."
+    },
+    {
+     "no": 4,
+     "title": "Align procedure simplification with effective governance.",
+     "meaning": "Supply Chain procedures should be easy to apply and effective, while preserving sound governance, protecting the confidentiality of procurement information, and strengthening integrity."
+    },
+    {
+     "no": 5,
+     "title": "Improve purchasing effectiveness",
+     "meaning": "Expand the qualified supplier base and strengthen procurement governance to achieve the best overall procurement value and total delivered cost, rather than purchase price alone. Evaluate price together with specification compliance, quality, supplier reliability, lead time, payment terms, inventory impact and delivery risk, recognizing that procurement represents a major share of company expenditure."
+    },
+    {
+     "no": 6,
+     "title": "Strengthen contracting across Supply Chain from legal, commercial, financial, and technical perspectives",
+     "meaning": "to protect the company's interests, improve terms and enhance cash flow management. Clearly define interfaces with the Commercial and Legal functions, particularly for subcontract changes, claims, contractual notices and matters reserved to project or corporate authorities."
+    },
+    {
+     "no": 7,
+     "title": "Strengthen Supply Chain's technical capability by training employees and developing their technical skills to support Value Engineering.",
+     "meaning": "Enable technical personnel to act as an effective link between the client, suppliers, and designers, improving the efficiency of technical solutions and decisions."
+    },
+    {
+     "no": 8,
+     "title": "Activate the offshore model effectively",
+     "meaning": "by attracting experienced and capable professionals and using offshore resources to support Supply Chain at both operational and strategic levels."
+    },
+    {
+     "no": 9,
+     "title": "Activate strategic procurement",
+     "meaning": "to improve purchasing effectiveness and security of supply, help limit the impact of price fluctuations, and make effective use of the Group's scale and purchasing power."
+    },
+    {
+     "no": 10,
+     "title": "Use digitalization, standardization, and offshore delivery",
+     "meaning": "as enablers for providing Supply Chain services more efficiently and at lower cost."
+    },
+    {
+     "no": 11,
+     "title": "Build and maintain a useful, reliable database of procurement data and historical records",
+     "meaning": "to support tender preparation, and ensure that it is regularly updated and actively used."
+    },
+    {
+     "no": 12,
+     "title": "Establish and effectively activate Fulfillment as an important Supply Chain function,",
+     "meaning": "with clear accountability for reliable delivery to the Core Business. Define its service scope, covering the relevant coordination of receipt, storage, distribution, material availability and delivery to the workfront, with measurable handoffs to Procurement, Construction and the project team."
+    },
+    {
+     "no": 13,
+     "title": "Optimize inventory management to support the core business at the lowest economically justified cost",
+     "meaning": "Manage inventory across central and project warehouses to ensure timely availability of construction materials and critical equipment spare parts at the lowest economically justified total cost. Set appropriate stocking, replenishment and accuracy controls; reduce excess, slow-moving and obsolete stock while balancing holding costs and working-capital exposure against shortages, delays and equipment downtime. Integrate inventory records and demand forecasts with Finance and the approved project planning platform. Coordinate spare-parts requirements and accountability with the Equipment business. Track inventory turns, stock accuracy, critical-item availability, obsolete stock and working-capital efficiency."
+    }
+   ],
+   "subobjectives": [
+    "WB-4-SCM(MATERRIAL-SUBCONTRACTING )",
+    "WB-6-SCM (Head /PLAN /EXECUTION )"
+   ],
+   "members": [
+    {
+     "name": "Hussam Eldien Salah",
+     "type": "leader",
+     "focal_point": false
+    },
+    {
+     "name": "Mohammed AbdulAziz Al Hudaithi",
+     "type": "member",
+     "focal_point": false
+    },
+    {
+     "name": "Magdy Radwan",
+     "type": "member",
+     "focal_point": false
+    },
+    {
+     "name": "Mohammed Ibrahem Elzughby",
+     "type": "coordinator",
+     "focal_point": true
+    },
+    {
+     "name": "Yasser Mohamed",
+     "type": "member",
+     "focal_point": false
+    }
+   ]
+  },
+  {
+   "code": "ENG",
+   "name": "Engineering",
+   "mission": "Focus first on Engineering production that directly enables execution, aligned with BIM, Cell Station, VBOQ, design responsiveness and an effective offshore production center.",
+   "weight": 9,
+   "directions": [
+    {
+     "no": 1,
+     "title": "Focus on Engineering production",
+     "meaning": "Define and develop the Engineering production activities required to enable effective project execution and contribute to the company's 2027 objectives."
+    },
+    {
+     "no": 2,
+     "title": "Integrate BIM with the company's delivery model",
+     "meaning": "Align BIM standards, tags, classifications and coding with the company's work methods. Build on the completed initial BIM-to-VBOQ proof of concept to refine automated quantity mapping, data quality and exception handling. Validate the resulting quantities and execution data before commercial or production use. Keep BIM integrated with Cell-based delivery and the company's execution methods."
+    },
+    {
+     "no": 3,
+     "title": "Activate the Engineering production operating model and Blueprint",
+     "meaning": "Run Engineering production through the offshore center and capable on-site team in coordination with the client, Procurement and Project Management. Deliver approved, coordinated drawings and technical documents before each planned workfront opening, controlling revisions and closing technical queries in time. Match field resources to project complexity, approvals and contractual needs; implement Blueprint roles, processes and interfaces."
+    },
+    {
+     "no": 4,
+     "title": "Retain and deploy experienced Engineering talent effectively",
+     "meaning": "Retain strong engineers and deploy them in the field to strengthen client relationships, support Procurement, and identify Value Engineering opportunities that improve project effectiveness."
+    },
+    {
+     "no": 5,
+     "title": "Apply AI to improve Engineering production",
+     "meaning": "Use AI where suitable in model development, drawing preparation, change assessment and technical information management to increase productivity and respond more rapidly to design changes. Engineering deliverables affecting design integrity, construction quality, safety or contractual compliance must remain subject to competent professional validation and approval."
+    },
+    {
+     "no": 6,
+     "title": "Develop company-standard BIM models",
+     "meaning": "Build and maintain standardized BIM models that improve Engineering productivity and integrate closely with Cell Station and the VBOQ."
+    },
+    {
+     "no": 7,
+     "title": "Align Engineering with the company's future strategy",
+     "meaning": "Ensure Engineering understands the company's strategic direction, supports the expansion of Construction capabilities, and enables Cell Station to serve as a core execution platform that improves efficiency and effectiveness."
+    },
+    {
+     "no": 8,
+     "title": "Support tendering through quantity take-off and company data",
+     "meaning": "Support tender preparation by estimating quantities from concept design drawings, using AI where appropriate, and drawing on the company's databases and historical information to strengthen the estimates."
+    }
+   ],
+   "subobjectives": [
+    "AK-2-BIM Initiatives",
+    "AK-3-Engineering/Design"
+   ],
+   "members": [
+    {
+     "name": "Mahmoud Hussni Amr",
+     "type": "leader",
+     "focal_point": false
+    },
+    {
+     "name": "Amro Abualia",
+     "type": "member",
+     "focal_point": false
+    },
+    {
+     "name": "Echchibi Mohamed",
+     "type": "coordinator",
+     "focal_point": true
+    },
+    {
+     "name": "Ali Kamel Younes",
+     "type": "member",
+     "focal_point": false
+    },
+    {
+     "name": "Mohamed Mustafa Elnagger",
+     "type": "member",
+     "focal_point": false
+    }
+   ]
+  },
+  {
+   "code": "BC",
+   "name": "Bidding & Commercial",
+   "mission": "Strengthen bid selection, estimating and constructability while managing contractual opportunities, client relationships, project commercial risk and recoveries across the lifecycle.",
+   "weight": 6,
+   "directions": [
+    {
+     "no": 1,
+     "title": "Activate Tendering's role as the entry gateway to the Stage-Gate Model",
+     "meaning": "Tendering is the entry gateway to the Stage-Gate Model. Use Candy, VBOQ and Engineering, Construction and Supply Chain inputs to strengthen estimating and bid governance. Assess margin, cash profile, delivery capacity, contract terms and risk, not award value alone. Develop Supply Chain Packages with Procurement. Use verified completed-project quantities, unit costs, productivity, changes and lessons learned from Project Management, Construction and Finance to maintain VBOQ benchmarks and continuously improve future estimates and bids."
+    },
+    {
+     "no": 2,
+     "title": "Integrate with Engineering to improve quantity takeoff and estimating.",
+     "meaning": "Strengthen integration between Tendering and Engineering to improve the accuracy and efficiency of quantity takeoff, and use modern technologies and AI to support tender estimating."
+    },
+    {
+     "no": 3,
+     "title": "Invest in Constructability as a strategic pillar.",
+     "meaning": "Invest in Constructability capabilities as one of the company's strategic pillars, developing them in integration with Engineering and Construction to provide technically robust and cost-efficient solutions that support tenders and strengthen competitiveness."
+    },
+    {
+     "no": 4,
+     "title": "Strengthen commercial and contractual management of opportunities and risks",
+     "meaning": "Commercial and contractual relationships create both opportunities and risks. Strengthen their treatment in Stage-Gate reviews and decisions, with clear ownership at tender stage and documented handover into post-award project administration. Define interfaces among Tendering, Commercial, the Project Manager, Finance and Legal for variations, claims, contractual notices and client relationships. Monitor material commercial and contractual exposures throughout the project lifecycle and their effects on project outcomes."
+    },
+    {
+     "no": 5,
+     "title": "Strengthen Commercial capabilities through offshore resources and technology",
+     "meaning": "Establish a Commercial operating model led by a small, effective head office team, supported by engineering and legal capabilities offshore. Train these professionals and engage specialist firms where needed. Use AI, under appropriate confidentiality and information-security controls, to help prepare and review correspondence, organize records and support claims analysis and strategy. Material contractual communications, claims positions and legal judgments require review and authorization by the responsible professionals."
+    },
+    {
+     "no": 6,
+     "title": "Activate the Tendering and Commercial Blueprint and digitalization.",
+     "meaning": "Implement the Blueprint by activating its roles and procedures, digitizing its processes, and integrating them with the Stage-Gate Model and relevant platforms. Ensure integration with Engineering, Construction, Supply Chain, Project Management, and Finance. Operate offshore resources through the same procedures and systems, translating the Blueprint into daily practices that support efficient tender preparation and commercial and contractual management throughout the project lifecycle."
+    }
+   ],
+   "subobjectives": [],
+   "members": [
+    {
+     "name": "Abdullah Al Othman",
+     "type": "leader",
+     "focal_point": false
+    },
+    {
+     "name": "Ahmed Mna",
+     "type": "coordinator",
+     "focal_point": true
+    },
+    {
+     "name": "Mohammed Gaweesh",
+     "type": "member",
+     "focal_point": false
+    },
+    {
+     "name": "Amir Tarabah",
+     "type": "member",
+     "focal_point": false
+    },
+    {
+     "name": "Oussama Zitouni",
+     "type": "member",
+     "focal_point": false
+    },
+    {
+     "name": "Ahmed Ezzeldin",
+     "type": "member",
+     "focal_point": false
+    }
+   ]
+  },
+  {
+   "code": "FIN",
+   "name": "Finance",
+   "mission": "Establish Finance as custodian of an integrated cost structure and an effective accounting, cash-flow and control framework that supports business-level profitability and decision-making.",
+   "weight": 5,
+   "directions": [
+    {
+     "no": 1,
+     "title": "Own and develop the company cost structure.",
+     "meaning": "Finance should own the cost structure and develop it in integration with the VBOQ, while ensuring that it is broader in scope than the VBOQ. It should align with recognized international standards and reflect the company's activities and business specializations. Finance should develop it with each department, based on a deeper understanding of the core business, so costs are assigned to the relevant department or activity—for example, allocating office rent to departments rather than treating it only as a general expense. The equipment cost structure should also make the type of equipment and its cost consumption clear."
+    },
+    {
+     "no": 2,
+     "title": "Strengthen the integration between accounting and finance",
+     "meaning": "Finance shall operate with clear, integrated responsibilities across Accounting and Financial Management. Accounting covers books and entries, cost accounting, accounts receivable, transactions and statutory financial statements. Financial Management covers budgets, forecasts, reporting and analysis, treasury, cash management, banking, credit facilities and financial risk. Zakat and tax accountabilities must be defined in the approved Finance operating model. Ensure timely, complete two-way information flows: accounting records inform financial decisions, and approved financial decisions are reflected in the accounts and controls. Coordinate invoicing and collections with Project Management and Commercial, with clear ownership of receivables, cash and financing costs. Support internal and external audit without compromising independent assurance. Strengthen financial awareness across the business, including links between costs, invoicing, collections, cash flow, financing risk and profitability. Distinguish cash flow from accounting profit while managing both coherently."
+    },
+    {
+     "no": 3,
+     "title": "Redeploy Finance capabilities and use offshore resources while preserving controls",
+     "meaning": "Finance is one of the company's most mature functions. Review future capability deployment in light of organizational changes and applicable localization requirements, verifying the current legal and professional obligations before setting staffing targets. Leverage Finance employees' expertise to support less mature functions, including Supply Chain, HR and Support Services, where practical. Expand suitable offshore financial and accounting activities only where service effectiveness, data security, statutory requirements, professional oversight, segregation of duties and reliable controls are maintained. No redeployment or offshore transfer should weaken financial integrity, accountability or the relevant local approvals."
+    },
+    {
+     "no": 4,
+     "title": "Activate the Finance Blueprint and digitalization.",
+     "meaning": "Complete and operationalize the Finance Blueprint by activating the structure, roles, and procedures it defines, and digitizing financial processes and connecting them with relevant systems and departments. This should simplify work, accelerate the flow of information and decisions, and improve data quality and the financial services provided to the core business, while maintaining financial control and governance."
+    },
+    {
+     "no": 5,
+     "title": "Establish an integrated project financial performance view",
+     "meaning": "Maintain a single reliable financial view of each project, integrating approved budget, progress, commitments, actual costs, cost to complete, final margin forecast, invoicing, collections and cash flow. Reconcile this view with Project Controls, Commercial and operating teams; assign data ownership, trigger early warnings for material variances and support timely recovery actions. Finance retains professional validation and reporting integrity."
+    }
+   ],
+   "subobjectives": [
+    "HS-1-Closing Bank Guarantee",
+    "HS-2-Cash flow plan efficiently",
+    "HS-3-Projects unbilled",
+    "HS-4-Accounting Entries",
+    "HS-5-Materials & Warehouses",
+    "HS-6-Employee Costs",
+    "HS-7-Group 01 project (closing ) Neom",
+    "HS-8-Group 02 project (closing ) Other Client",
+    "HS-9-Fixed Cost Structure",
+    "WB-2-G&A optimization"
+   ],
+   "members": [
+    {
+     "name": "Hussam Eldien Salah",
+     "type": "leader",
+     "focal_point": false
+    },
+    {
+     "name": "Mohamed Fouda",
+     "type": "coordinator",
+     "focal_point": true
+    },
+    {
+     "name": "Saad Mohsen Saad",
+     "type": "member",
+     "focal_point": false
+    },
+    {
+     "name": "Abdullah Mohammed Domah",
+     "type": "member",
+     "focal_point": false
+    }
+   ]
+  },
+  {
+   "code": "HR",
+   "name": "Human Capital Management",
+   "mission": "Turn HR into a capability-building and operational partner through Sub-Job Families, workforce models, supervisor incentives, talent development and integrated offshore support.",
+   "weight": 5,
+   "directions": [
+    {
+     "no": 1,
+     "title": "Operationalize the HR Blueprint.",
+     "meaning": "Implement the HR Blueprint effectively and reflect it in the organizational structure and digital systems. Build a clear understanding of the Blueprint and adopt new technologies to enable digitalization, followed by AI, to improve efficiency and organizational maturity."
+    },
+    {
+     "no": 2,
+     "title": "Align Sub-Job Families with Sub-Functions",
+     "meaning": "Apply the company operating model by assigning a dedicated Sub-Job Family to each Sub-Function. Improve FTE utilization through groups of employees working across defined sets of procedures, bring together diverse expertise within each Sub-Function, establish career paths within and across Sub-Job Families, and develop specialized training materials for each Sub-Function and its Sub-Job Family. In addition, link related Sub-Job Families through shared skills, competencies and capabilities where this improves mobility, collaboration, learning and workforce utilization, without weakening the intended specialization of each Sub-Function."
+    },
+    {
+     "no": 3,
+     "title": "Differentiate HR's strategic and operational roles.",
+     "meaning": "Ensure that HR performs an effective strategic role in supporting the core business. Reflect the Blueprint's distinction between HR services for Construction and HR services for Project Management. Although procedures may be similar, the nature of the work differs and requires appropriate approaches to recruitment, employee management, and understanding the needs of each workforce."
+    },
+    {
+     "no": 4,
+     "title": "Enable the Construction team partnership and incentive model",
+     "meaning": "Support the partnership with Construction supervisors as leaders of teams of technicians, enabling teams to operate as small, empowered units within the company under a win-win model. Mature and operationalize the model already tested in the company, shifting reliance on overtime toward team bonuses earned after achieving agreed, verifiable productivity, quality, safety and cost targets while protecting base salaries and applicable employee rights. Integrate this model with the relevant Sub-Job Families and Sub-Functions, and support team cohesion and efficiency through training, capability development and new tools."
+    },
+    {
+     "no": 5,
+     "title": "Build a long-term talent development model.",
+     "meaning": "Treat talent as a long-term investment and a core company asset, from joining the company through progression into leadership. Establish a dedicated function to manage and develop talent throughout this lifecycle. Integrate talent recruitment and identification with the Sub-Job Family model, supported by development, training, and practical, tangible career paths that evolve over time."
+    },
+    {
+     "no": 6,
+     "title": "Establish an integrated offshore platform.",
+     "meaning": "Use the Blueprint, digitalization, and integration to establish offshore operations as an integral part of the company and an extension of its organizational structure, rather than outsourcing. Improve efficiency by enabling offshore teams to operate through an integrated platform that extends the company's organizational model into project delivery."
+    }
+   ],
+   "subobjectives": [
+    "WB-3-Manpower Utilization",
+    "WB-5-HR (Head /PLAN /EXECUTION )",
+    "WB-10-Service Catalog Linkage"
+   ],
+   "members": [
+    {
+     "name": "Rakan Alauni",
+     "type": "leader",
+     "focal_point": false
+    },
+    {
+     "name": "Raed Smaidi",
+     "type": "member",
+     "focal_point": false
+    },
+    {
+     "name": "Hassan Farooq",
+     "type": "coordinator",
+     "focal_point": true
+    },
+    {
+     "name": "Thamer Filimban",
+     "type": "member",
+     "focal_point": false
+    },
+    {
+     "name": "Amer Abduh",
+     "type": "member",
+     "focal_point": false
+    },
+    {
+     "name": "Bilal Nabil Malass",
+     "type": "member",
+     "focal_point": false
+    }
+   ]
+  },
+  {
+   "code": "SS",
+   "name": "Support Services",
+   "mission": "Operate Support Services through a transparent Service Catalogue, cost-by-service allocation, shared services and measurable service quality at competitive cost.",
+   "weight": 5,
+   "directions": [
+    {
+     "no": 1,
+     "title": "Organize and deliver Support Services, then account for their cost by service",
+     "meaning": "Given the breadth and variety of Support Services, establish a clear Service Catalogue that defines what each service provides and how it is requested and delivered. Calculate and allocate service costs to the benefiting departments using appropriate activity-based cost drivers, rather than grouping costs under broad general expense lines. Examples include allocating office costs by seats or floor area and defining secretarial services and workforce accommodation. This approach supports service transparency, efficiency and better cost decisions. Third-party providers may be used where the total cost and service quality are demonstrably favorable."
+    },
+    {
+     "no": 2,
+     "title": "Provide efficient, low-cost services that support the business",
+     "meaning": "Support Services should improve quality, accessibility and cost efficiency, using offshore resources and shared solutions where appropriate across departments and companies. Options such as open-plan offices, shared secretarial support and remote service delivery should be assessed against actual demand, confidentiality, employee effectiveness, service standards and total cost rather than mandated uniformly. Capture economies of scale by sharing services across companies and employees; for example, companies working on the same project may receive jointly coordinated services where this is more effective."
+    },
+    {
+     "no": 3,
+     "title": "Activate the Support Services Blueprint and digitalization.",
+     "meaning": "Implement the Support Services Blueprint and digitize its procedures so that the Service Catalogue is reflected in practice and becomes a clear mechanism for defining, requesting, delivering, costing, and monitoring the efficiency of services."
+    }
+   ],
+   "subobjectives": [
+    "WB-1-Support Services Structuer Enhancment"
+   ],
+   "members": [
+    {
+     "name": "Hussam Eldien Salah",
+     "type": "leader",
+     "focal_point": false
+    },
+    {
+     "name": "Abdulelah Al Ayuni",
+     "type": "member",
+     "focal_point": false
+    },
+    {
+     "name": "Sherif Mohammed Ismael",
+     "type": "coordinator",
+     "focal_point": true
+    },
+    {
+     "name": "Ibrahim Mohammed Alhebaishi",
+     "type": "member",
+     "focal_point": false
+    },
+    {
+     "name": "Salah Sobhy Salah Mohamed",
+     "type": "member",
+     "focal_point": false
+    },
+    {
+     "name": "Mahmoud Mohamed Talaat",
+     "type": "member",
+     "focal_point": false
+    }
+   ]
+  },
+  {
+   "code": "ICT",
+   "name": "ICT & Digitalization",
+   "mission": "Create an integrated, secure and economically sustainable digital operating model, maximizing Oracle value, advancing Tekwin in phases and coordinating internal, partner and offshore capabilities.",
+   "weight": 5,
+   "directions": [
+    {
+     "no": 1,
+     "title": "Build a sustainable and cost-efficient digitalization operating model",
+     "meaning": "Digitalization is a key enabler of the business. The company invests in developing this capability through investments and partnerships with Alia, Black Smith and SaSa in Saudi Arabia and Jordan. This direction aims to reduce cost, access specialist capabilities and benefit from partners' knowledge while retaining strong internal Oracle expertise. The model should provide flexible specialist capacity through shared expert costs and capable offshore teams in Jordan. Internal teams should own sustainable service operations, architecture, critical product knowledge and vendor oversight. Project-based development may be delivered through investments and partners, while strategic products such as Tekwin require continuing development, maintenance, security and lifecycle ownership."
+    },
+    {
+     "no": 2,
+     "title": "Integrate Oracle with company applications and optimize license utilization",
+     "meaning": "Capture Oracle's benefits while managing associated costs and risks. Continue developing the company's own applications, particularly Tekwin as the Construction platform, and integrate them with relevant systems. Allocate application access and licenses to users based on actual responsibilities, approved architecture, Oracle contractual entitlements and relevant security requirements. Where permitted by license conditions and technical design, viewing and monitoring needs may be served through Tekwin while Oracle transaction capabilities are retained for authorized users. Do not assume that indirect access or alternative viewing interfaces automatically remove Oracle license obligations."
+    },
+    {
+     "no": 3,
+     "title": "Develop Tekwin in phases and progressively expand its capabilities",
+     "meaning": "Develop Tekwin through a phased approach, beginning with operational stability and then introducing suitable AI Agents to improve efficiency. Evaluate a progressive, service-by-service expansion into functions currently provided through Unifier where Tekwin demonstrably offers better integrated business value. Respect the previously selected and implemented roles of Unifier unless a specific service transition has been justified and approved. Any change should consider development and operating costs, Oracle and Unifier license terms, service continuity, cybersecurity, data migration, integration, operational sustainability and transition risks before implementation."
+    },
+    {
+     "no": 4,
+     "title": "Activate the ICT Blueprint and integrate it with departmental Blueprints.",
+     "meaning": "Implement the ICT Blueprint by activating its roles, procedures, and operating model, and aligning them with departmental needs and business Blueprints. Translate approved procedures into integrated digital services and solutions, with clear operating and development responsibilities across internal teams, offshore teams, and partner companies. Ensure service efficiency and sustainability, information security, and integration across data and systems."
+    },
+    {
+     "no": 5,
+     "title": "Integrate with EPMO on information, data and procedure governance",
+     "meaning": "Work closely with EPMO in its role as custodian of the company's libraries, approved procedures and common standards, within the agreed TOM and organizational mandates. Business and process owners remain accountable for the accuracy and meaning of their information and processes; ICT is accountable for the relevant technical architecture, access management, integration, security and system operations. Establish clear interfaces for changes, version control, quality checks and application of common references."
+    },
+    {
+     "no": 6,
+     "title": "Balance cybersecurity with operational efficiency and flexibility.",
+     "meaning": "Develop and implement cybersecurity requirements that reflect the company's operations across multiple countries, applicable requirements, and the risks associated with multiple operating locations and system access. The model should balance the protection of information and systems with operational efficiency, flexibility, mobility, and collaboration across teams."
+    },
+    {
+     "no": 7,
+     "title": "Define & Utilize AI for Digitalization initiatives.",
+     "meaning": ""
+    }
+   ],
+   "subobjectives": [
+    "WB-13- AI Invention Points, AI Agent Types, AI Inputs and Outputs",
+    "WB-15-Digitalization of Related Sub-objectives"
+   ],
+   "members": [
+    {
+     "name": "Shadi Alghanim",
+     "type": "leader",
+     "focal_point": false
+    },
+    {
+     "name": "Essam Essmat",
+     "type": "member",
+     "focal_point": false
+    },
+    {
+     "name": "Azeem Hussain",
+     "type": "member",
+     "focal_point": false
+    },
+    {
+     "name": "Amr Gomaa",
+     "type": "coordinator",
+     "focal_point": true
+    },
+    {
+     "name": "Sakeel Ahamed",
+     "type": "member",
+     "focal_point": false
+    }
+   ]
+  },
+  {
+   "code": "BD",
+   "name": "Business Development",
+   "mission": "Deliver near-term backlog through Oxygen 27 while incubating development, enabling sector diversification and strengthening external market access and partnerships.",
+   "weight": 6,
+   "directions": [
+    {
+     "no": 1,
+     "title": "Understand and adopt the Business Development mandate.",
+     "meaning": "Understand and adopt the Business Development mandate, clarifying its responsibilities and its role within the Operating Model over the near and long term."
+    },
+    {
+     "no": 2,
+     "title": "Deliver tangible results in 2027 through the “Oxygen 27” plan",
+     "meaning": "Focus on securing a high-quality, risk-adjusted backlog to sustain business during restructuring. Prioritize contracts with sound expected margins, manageable cash flow and payment terms, acceptable contractual and counterparty risks, and demonstrable delivery capacity, rather than maximizing award volume alone."
+    },
+    {
+     "no": 3,
+     "title": "Prioritize target clients in light of market conditions.",
+     "meaning": "Identify priority clients and opportunities based on market conditions, and focus Business Development efforts accordingly."
+    },
+    {
+     "no": 4,
+     "title": "Use offshore capabilities and allocate spending effectively.",
+     "meaning": "Use offshore capabilities to support Business Development, allocating resources and spending according to business needs and expected value. Avoid misplaced spending while ensuring that activities receive the funding needed to be effective."
+    },
+    {
+     "no": 5,
+     "title": "Support new sectors in winning business outside the Group.",
+     "meaning": "Support the Equipment and Production sectors in building external client relationships and securing business outside the Group."
+    },
+    {
+     "no": 6,
+     "title": "Incubate the Development business",
+     "meaning": "Help establish the foundations of the Development business and act as its incubator until a dedicated team is established and assumes responsibility. Define investment decision interfaces, required approvals and a deliberate handover from incubation to the appropriate development or investment entity as capabilities mature."
+    },
+    {
+     "no": 7,
+     "title": "Strengthen private-sector partnerships for Real Estate Development.",
+     "meaning": "Help build and strengthen partnerships with private-sector partners to support the Real Estate Development sector and its growth opportunities."
+    },
+    {
+     "no": 8,
+     "title": "Explore unconventional infrastructure opportunities",
+     "meaning": "Identify innovative and unconventional infrastructure business opportunities within Saudi Arabia and internationally, guided by approved market-entry criteria, strategic fit, financial attractiveness, execution capability and risk exposure before committing significant resources."
+    },
+    {
+     "no": 9,
+     "title": "Support Superstructure & Mining initiative.",
+     "meaning": "Support the Superstructure & Mining initiative in identifying opportunities and securing work within the mining & Superstructure sector."
+    },
+    {
+     "no": 10,
+     "title": "Complete and implement the Business Development Blueprint.",
+     "meaning": "Review and complete the Blueprint to reflect the Business Development mandate and the directions above. Define sub-functions, processes, roles, KPIs, and interfaces with other sectors, then develop a plan to implement and automate the processes in coordination with the supporting teams."
+    }
+   ],
+   "subobjectives": [
+    "YM-2-Market competitiveness (Where to Play & How We Win)"
+   ],
+   "members": [
+    {
+     "name": "Hamad Aloqayli",
+     "type": "leader",
+     "focal_point": false
+    },
+    {
+     "name": "Omar Khaled Alomar",
+     "type": "member",
+     "focal_point": false
+    },
+    {
+     "name": "Feras Albadrani",
+     "type": "coordinator",
+     "focal_point": true
+    },
+    {
+     "name": "Ahriff Sheriff",
+     "type": "member",
+     "focal_point": false
+    },
+    {
+     "name": "Karim Chettouh",
+     "type": "member",
+     "focal_point": false
+    },
+    {
+     "name": "Nader Mohamed Elsherbiny",
+     "type": "member",
+     "focal_point": false
+    }
+   ]
+  },
+  {
+   "code": "OTH",
+   "name": "Others (Governance, Excellence, HSE)",
+   "mission": "Enable an agile, cost-efficient Contracting Sub-Holding through coherent corporate governance, integration, shared standards, operating excellence and appropriate HSE disciplines.",
+   "weight": 3,
+   "directions": [
+    {
+     "no": 1,
+     "title": "Transition the Transformation Office into EPMO by the end of 2027",
+     "meaning": "Progress the planned transition of the Transformation Office into the Enterprise Project Management Office (EPMO) within the Contracting Sub-Holding by the end of 2027. Define the target mandate, reporting lines, staffing, transition of continuing transformation responsibilities and clear separation between project governance, operational controls and independent assurance, as applicable. EPMO will serve as the central custodian of company libraries, approved procedures and standards within its formally approved authority; the transition should not be treated as an automatic transfer of every current TMO activity."
+    },
+    {
+     "no": 2,
+     "title": "Build an agile and cost-efficient Sub-Holding.",
+     "meaning": "Design the Contracting Sub-Holding to be highly agile, with a lean structure and carefully managed costs, enabling it to fulfill its responsibilities efficiently and effectively."
+    },
+    {
+     "no": 3,
+     "title": "Build capabilities according to current needs.",
+     "meaning": "Focus on building what is needed now to achieve the company's objectives. Avoid burdening the company with premature structures or costs for capabilities that are not required at this stage, while allowing for expansion when needed."
+    },
+    {
+     "no": 4,
+     "title": "Separate or integrate activities based on effectiveness and value.",
+     "meaning": "Separate activities and responsibilities where separation improves effectiveness, and integrate them where integration delivers greater value. Organizational decisions should serve performance and business objectives."
+    },
+    {
+     "no": 5,
+     "title": "Ensure integration and a replicable operating model",
+     "meaning": "The Contracting Sub-Holding is to ensure effective integration across companies and business units and oversee the modular design of the Operating Model during 2027. Build common governance, data and service standards while allowing fit-for-purpose variations for Construction, Project Management, Equipment, Production and other businesses, enabling the model to be replicated and scaled without unnecessary uniformity or overhead."
+    },
+    {
+     "no": 6,
+     "title": "Set safety accountability and independent HSE assurance",
+     "meaning": "Set risk-based Group HSE standards, leading indicators and escalation thresholds. Project and site operating leaders remain accountable for daily safety and critical-control execution. Group HSE independently verifies critical controls, incident learning and corrective-action closure; escalate unresolved material exposures through approved governance without transferring operational safety ownership."
+    }
+   ],
+   "subobjectives": [
+    "YM-1-EPMO (Head /PLAN /EXECUTION )",
+    "YM-3-Operating Model Memo",
+    "YM-4-Target Audience",
+    "YM-5-Standardized Terminology",
+    "YM-6-Operating Model Coding",
+    "YM-7-Reporting Mechanism",
+    "YM-8-System Integration and Data Flows",
+    "YM-9-Function Definition, Job Families, Career Paths",
+    "YM-10-Function KPIs, Individual & Functional KPIs, Operational KPIs, KPI Calculations",
+    "YM-11-Phased Roadmap",
+    "YM-12-Change Management",
+    "WB-7-Xcore",
+    "WB-9-Key Reports, Meeting Linkage, Decision Usage, Request Lifecycle",
+    "WB-11-Offshore",
+    "WB-12-System Change / Procedure, Structure Role Changes, Phase independancies, Phased Deliverables",
+    "WB-14-Integration Points and Data Flow"
+   ],
+   "members": [
+    {
+     "name": "Ibrahim Kofahi",
+     "type": "leader",
+     "focal_point": false
+    },
+    {
+     "name": "Firas Hijazi",
+     "type": "member",
+     "focal_point": false
+    },
+    {
+     "name": "Karim Chettouh",
+     "type": "member",
+     "focal_point": false
+    },
+    {
+     "name": "Adel Alhadrami",
+     "type": "member",
+     "focal_point": false
+    },
+    {
+     "name": "Ahmad Hammad",
+     "type": "member",
+     "focal_point": false
+    },
+    {
+     "name": "Jahangeer Khan",
+     "type": "coordinator",
+     "focal_point": true
+    }
+   ]
+  }
+ ]
+}
