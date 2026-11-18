@@ -50,9 +50,9 @@ services:
         value: "False"
       # The API's own host is added automatically (RENDER_EXTERNAL_HOSTNAME); this adds the front end's.
       - key: DJANGO_ALLOWED_HOSTS
-        value: task-register-elty.onrender.com
+        value: task-register-2ycg.onrender.com
       - key: DJANGO_CSRF_TRUSTED_ORIGINS
-        value: https://task-register-elty.onrender.com
+        value: https://task-register-2ycg.onrender.com
       - key: DJANGO_SECURE_COOKIES
         value: "True"
       # Render serves HTTPS only; the API also redirects plain HTTP and asks browsers to stay on HTTPS.
@@ -113,13 +113,13 @@ services:
     routes:
       - type: rewrite
         source: /api/*
-        destination: https://task-register-api.onrender.com/api/*
+        destination: https://task-register-api-4n7y.onrender.com/api/*
       - type: rewrite
         source: /admin/*
-        destination: https://task-register-api.onrender.com/admin/*
+        destination: https://task-register-api-4n7y.onrender.com/admin/*
       - type: rewrite
         source: /static/*
-        destination: https://task-register-api.onrender.com/static/*
+        destination: https://task-register-api-4n7y.onrender.com/static/*
       # Links such as /tasks/12 and page refreshes load the React app.
       - type: rewrite
         source: /*
