@@ -8,7 +8,7 @@
 # The public addresses follow the service names. If Render reports a name as taken and adds a suffix,
 # update the three "https://task-register-api.onrender.com" routes below and the two DJANGO_* values
 # that name task-register.onrender.com, then sync the Blueprint again. See docs/render.md.
-
+# check again
 databases:
   - name: task-register-db
     plan: free
