@@ -1,0 +1,14 @@
+# HTTPS entry point. Caddy gets and renews the certificate for APP_DOMAIN automatically
+# (ports 80 and 443 must be open to the internet and the DNS name must point at the VM).
+{
+	email {$ACME_EMAIL}
+}
+
+{$APP_DOMAIN} {
+	encode zstd gzip
+	header {
+		Strict-Transport-Security "max-age=31536000; includeSubDomains"
+		-Server
+	}
+	reverse_proxy frontend:8080
+}

@@ -1,0 +1,47 @@
+# Everything on one Azure VM: adds PostgreSQL as a container next to the backend, instead of
+# Azure Database for PostgreSQL. Use it together with docker-compose.azure.yml:
+#
+#   docker compose -f docker-compose.azure.yml -f docker-compose.azure-db.yml up -d --build
+#
+# The database is reachable only on the internal Docker network (no port is published). Its files live in
+# PG_DATA_DIR: a folder on the VM's data disk (recommended, e.g. /datadisk/postgres), or, when not set, a
+# Docker volume on the OS disk. Guide: docs/deploy-azure-portal.md, part B.
+name: task-register
+
+services:
+  db:
+    image: postgres:16-alpine
+    restart: unless-stopped
+    environment:
+      POSTGRES_DB: ${DB_NAME:-task_register}
+      POSTGRES_USER: ${DB_USER:?Set DB_USER}
+      POSTGRES_PASSWORD: ${DB_PASSWORD:?Set DB_PASSWORD}
+      # Passwords stored as SCRAM-SHA-256 (the PostgreSQL 16 default), stated so it stays so.
+      POSTGRES_INITDB_ARGS: "--auth-host=scram-sha-256"
+    volumes:
+      - ${PG_DATA_DIR:-pgdata}:/var/lib/postgresql/data
+    shm_size: 256mb
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U $${POSTGRES_USER} -d $${POSTGRES_DB}"]
+      interval: 5s
+      timeout: 5s
+      retries: 20
+    security_opt: ["no-new-privileges:true"]
+    logging:
+      driver: json-file
+      options: { max-size: "10m", max-file: "5" }
+    networks: [internal]
+
+  backend:
+    depends_on:
+      db:
+        condition: service_healthy
+    environment:
+      # The database container, over the private Docker network (no TLS needed inside the VM).
+      DATABASE_URL: ""
+      DB_HOST: db
+      DB_PORT: "5432"
+      DB_SSLMODE: disable
+
+volumes:
+  pgdata:

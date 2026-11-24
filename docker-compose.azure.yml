@@ -1,0 +1,125 @@
+# Azure VM: frontend + backend on the VM, database on Azure Database for PostgreSQL (Flexible Server).
+# Caddy terminates HTTPS with a free Let's Encrypt certificate for APP_DOMAIN.
+#   cp deploy/azure/.env.azure.example .env   # fill it in (chmod 600)
+#   docker compose -f docker-compose.azure.yml up -d --build      # build on the VM
+#   or, with images from GitHub: docker compose -f docker-compose.azure.yml pull && ... up -d
+# Full guide: docs/deploy-azure.md (Azure CLI) and docs/deploy-azure-portal.md (Azure Portal).
+name: task-register
+
+services:
+  backend:
+    image: ${IMAGE_PREFIX:-task-register}-backend:${IMAGE_TAG:-local}
+    build: ./backend
+    restart: unless-stopped
+    environment:
+      # Azure PostgreSQL: set DB_HOST, DB_USER, DB_PASSWORD (DB_SSLMODE stays "require"),
+      # or one DATABASE_URL instead (then special characters in the password must be URL-encoded).
+      DATABASE_URL: ${DATABASE_URL:-}
+      DB_HOST: ${DB_HOST:-}
+      DB_PORT: ${DB_PORT:-5432}
+      DB_NAME: ${DB_NAME:-task_register}
+      DB_USER: ${DB_USER:-}
+      DB_PASSWORD: ${DB_PASSWORD:-}
+      DB_SSLMODE: ${DB_SSLMODE:-require}
+      # Also protects the SMTP password saved on the System settings page and the sign-in codes: changing it
+      # signs everyone out and the SMTP password has to be entered again.
+      DJANGO_SECRET_KEY: ${DJANGO_SECRET_KEY:?Set DJANGO_SECRET_KEY}
+      DJANGO_DEBUG: "false"
+      DJANGO_ALLOWED_HOSTS: ${APP_DOMAIN:?Set APP_DOMAIN},localhost,127.0.0.1
+      DJANGO_CSRF_TRUSTED_ORIGINS: https://${APP_DOMAIN}
+      DJANGO_SECURE_COOKIES: "true"
+      DJANGO_SECURE_SSL_REDIRECT: "true"
+      DJANGO_HSTS_SECONDS: ${DJANGO_HSTS_SECONDS:-31536000}
+      DJANGO_HSTS_PRELOAD: ${DJANGO_HSTS_PRELOAD:-false}
+      DJANGO_LOG_LEVEL: ${DJANGO_LOG_LEVEL:-INFO}
+      # Two trusted proxies in front of the API: Caddy (HTTPS) and the nginx web container.
+      DJANGO_NUM_PROXIES: ${DJANGO_NUM_PROXIES:-2}
+      LOGIN_LOCKOUT_ATTEMPTS: ${LOGIN_LOCKOUT_ATTEMPTS:-5}
+      LOGIN_LOCKOUT_MINUTES: ${LOGIN_LOCKOUT_MINUTES:-15}
+      # Defaults only: Administration > System settings (automatic sign-out) takes over once switched on there.
+      SESSION_IDLE_MINUTES: ${SESSION_IDLE_MINUTES:-60}
+      SESSION_ABSOLUTE_HOURS: ${SESSION_ABSOLUTE_HOURS:-10}
+      # The first and last date the register accepts.
+      REGISTER_DATE_MIN: ${REGISTER_DATE_MIN:-2024-01-01}
+      REGISTER_DATE_MAX: ${REGISTER_DATE_MAX:-2035-12-31}
+      API_DOCS_ENABLED: ${API_DOCS_ENABLED:-true}
+      SYSTEM_EVENT_RETENTION_DAYS: ${SYSTEM_EVENT_RETENTION_DAYS:-90}
+      DB_CONN_MAX_AGE: ${DB_CONN_MAX_AGE:-60}
+      # The 13 work groups, directions, sub-objectives, members and their accounts (missing records only).
+      LOAD_INITIAL_DATA: ${LOAD_INITIAL_DATA:-true}
+      INITIAL_USER_PASSWORD: ${INITIAL_USER_PASSWORD:-}
+      # Trial environments only: sample tasks and the trial users. SEED_DEMO_RESET=true wipes the register on start.
+      SEED_DEMO: ${SEED_DEMO:-false}
+      SEED_DEMO_RESET: ${SEED_DEMO_RESET:-false}
+      DEMO_USER_PASSWORD: ${DEMO_USER_PASSWORD:-}
+      OIDC_ENABLED: ${OIDC_ENABLED:-false}
+      OIDC_TENANT_ID: ${OIDC_TENANT_ID:-}
+      OIDC_CLIENT_ID: ${OIDC_CLIENT_ID:-}
+      OIDC_CLIENT_SECRET: ${OIDC_CLIENT_SECRET:-}
+      # Outgoing email (sign-in codes, delegation notices). Can instead be set on Administration > System
+      # settings, which wins while it is switched on there.
+      EMAIL_HOST: ${EMAIL_HOST:-}
+      EMAIL_PORT: ${EMAIL_PORT:-587}
+      EMAIL_HOST_USER: ${EMAIL_HOST_USER:-}
+      EMAIL_HOST_PASSWORD: ${EMAIL_HOST_PASSWORD:-}
+      EMAIL_USE_TLS: ${EMAIL_USE_TLS:-true}
+      EMAIL_USE_SSL: ${EMAIL_USE_SSL:-false}
+      EMAIL_TIMEOUT: ${EMAIL_TIMEOUT:-15}
+      DEFAULT_FROM_EMAIL: ${DEFAULT_FROM_EMAIL:-TMO Task Register <no-reply@localhost>}
+      # The address in email links; by default the HTTPS address of APP_DOMAIN.
+      APP_PUBLIC_URL: ${APP_PUBLIC_URL:-https://${APP_DOMAIN}}
+    read_only: true
+    tmpfs: [/tmp]
+    security_opt: ["no-new-privileges:true"]
+    cap_drop: [ALL]
+    logging: &logs
+      driver: json-file
+      options: { max-size: "10m", max-file: "5" }
+    networks: [internal]
+
+  frontend:
+    image: ${IMAGE_PREFIX:-task-register}-frontend:${IMAGE_TAG:-local}
+    build:
+      context: ./frontend
+      args:
+        # The amber "Under development" mark beside the page titles. APP_STAGE= (empty) hides it once the
+        # application is live ("off" works too). Applies when the image is built here (--build); images from
+        # GitHub use the repository variable APP_STAGE (Settings > Secrets and variables > Actions > Variables).
+        VITE_APP_STAGE: "${APP_STAGE-Under development}"
+    restart: unless-stopped
+    depends_on:
+      backend:
+        condition: service_healthy
+    read_only: true
+    tmpfs: [/tmp]
+    security_opt: ["no-new-privileges:true"]
+    cap_drop: [ALL]
+    logging: *logs
+    networks: [internal]
+
+  caddy:
+    image: caddy:2.8-alpine
+    restart: unless-stopped
+    depends_on:
+      frontend:
+        condition: service_healthy
+    ports:
+      - "80:80"
+      - "443:443"
+      - "443:443/udp"
+    environment:
+      APP_DOMAIN: ${APP_DOMAIN}
+      ACME_EMAIL: ${ACME_EMAIL:-}
+    volumes:
+      - ./deploy/azure/Caddyfile:/etc/caddy/Caddyfile:ro
+      - caddy_data:/data
+      - caddy_config:/config
+    logging: *logs
+    networks: [internal]
+
+volumes:
+  caddy_data:
+  caddy_config:
+
+networks:
+  internal:
